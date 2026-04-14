@@ -1,23 +1,17 @@
-from .participant import _Participant
+class Joueur:
+    def __init__(self, nom: str, poste: str, age: int = None, equipe=None):
+        self.nom = nom
+        self.poste = poste
+        self.age = age
+        self.equipe = equipe
 
+        # Statistiques
+        self.buts = 0
+        self.passes = 0
+        self.minutes_jouees = 0
 
-class Joueur(_Participant):
-    """
-    Classe représentant un joueur, héritant de _Participants.
+    def mettre_a_jour_stats(self, match):
+        pass 
 
-    Parameters
-    ----------
-    pseudo : str
-        Pseudonyme du joueur, chaîne de caractères de longueur 2 à 16.
-
-    Examples
-    --------
-    >>> joueur1 = Joueur("Ninja")
-    >>> joueur2 = Joueur("Shadow")
-    >>> joueur1 == joueur2
-    False
-    >>> print(joueur1)
-    Ninja
-    """
-
-    pass
+    def __str__(self):
+        return f"{self.nom} ({self.poste})"
