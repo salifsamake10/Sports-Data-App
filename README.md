@@ -149,8 +149,7 @@ Exemple pour ajouter le volleyball :
 
 ## Auteurs
 
-Projet réalisé dans le cadre du cours « Projet de traitement de données »
-de l'ENSAI, encadré par Johann Faouzi.
+Salif SAMAKE et Moussa
 
 ## Licence
 
