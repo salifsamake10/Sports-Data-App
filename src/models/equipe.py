@@ -18,7 +18,7 @@ class Equipe(Participant):
 
     Hérite de Participant et regroupe une liste de joueurs.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique.

@@ -19,7 +19,7 @@ class Participant(ABC):
     (sports collectifs). Permet à Match de manipuler ses participants
     de manière uniforme, quel que soit le sport.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique du participant.

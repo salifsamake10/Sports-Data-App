@@ -1,17 +1,13 @@
 """Module définissant la classe Joueur."""
 
-from __future__ import annotations
 
 from datetime import date
-from typing import TYPE_CHECKING
 
 from .enums import Genre
 from .participant import Participant
 from .statistique import Statistique
-
-if TYPE_CHECKING:
-    from .pays import Pays
-    from .resultat import Resultat
+from .pays import Pays
+from .resultat import Resultat
 
 
 class Joueur(Participant):
@@ -20,7 +16,7 @@ class Joueur(Participant):
     Hérite de Participant et ajoute les attributs propres à un joueur :
     prénom, date de naissance, pays, genre.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique.
@@ -72,6 +68,8 @@ class Joueur(Participant):
         super().__init__(id=id, nom=nom)
         if not prenom or not prenom.strip():
             raise ValueError("Le prénom ne peut pas être vide.")
+        if not nom or not nom.strip():
+            raise ValueError("Le nom ne peut pas être vide.")
         if date_naissance > date.today():
             raise ValueError("La date de naissance ne peut pas être dans le futur.")
         self.prenom = prenom.strip()

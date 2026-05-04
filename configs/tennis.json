@@ -1,0 +1,26 @@
+{
+  "type_mapper": "relationnel",
+  "sport": "Tennis",
+  "competition": "ATP Tour 2024",
+  "categorie": "Senior",
+  "genre": "MASCULIN",
+  "type_participant": "joueur",
+  "type_resultat": "victoire",
+  "type_classement": "victoires",
+  "mode_resultat": "winner_loser",
+  "saison": {"debut": 2024, "fin": 2024, "nom": "ATP 2024"},
+  "pays_defaut": {"nom": "International", "code": "INT"},
+  "dossier": "datasets/tennis",
+  "fichier_matchs": "atp_matches_2024.csv",
+  "fichier_participants": "atp_players_2024.csv",
+  "mapping_participant": {
+    "id": "player_id",
+    "nom": "name_last"
+  },
+  "mapping_match": {
+    "date": "tourney_date",
+    "participant_1": "winner_id",
+    "participant_2": "loser_id",
+    "phase": "round"
+  }
+}

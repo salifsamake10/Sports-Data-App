@@ -14,7 +14,7 @@ class Resultat:
     Un résultat associe une valeur numérique (score, points, etc.)
     et un type (buts, sets, victoire) à un participant précis.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique du résultat.

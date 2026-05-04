@@ -1,0 +1,29 @@
+{
+  "type_mapper": "relationnel",
+  "sport": "Basketball",
+  "competition": "NBA Regular Season",
+  "categorie": "Senior",
+  "genre": "MASCULIN",
+  "type_participant": "equipe",
+  "type_resultat": "points",
+  "type_classement": "points_3_1_0",
+  "saison": {"debut": 2022, "fin": 2023, "nom": "2022-2023"},
+  "pays_defaut": {"nom": "USA", "code": "USA"},
+  "dossier": "datasets/Basketball",
+  "fichier_matchs": "game.csv",
+  "fichier_participants": "team.csv",
+  "mapping_participant": {
+    "id": "id",
+    "nom": "full_name"
+  },
+  "mapping_match": {
+    "date": "game_date",
+    "participant_1": "team_id_home",
+    "participant_2": "team_id_away",
+    "score_1": "pts_home",
+    "score_2": "pts_away"
+  },
+  "filtres": {
+    "season": "2022-2023"
+  }
+}

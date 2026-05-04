@@ -1,0 +1,5297 @@
+{
+  "id": 1,
+  "nom": "Tournoi d'échecs",
+  "sport": {
+    "id": 1,
+    "nom": "Échecs"
+  },
+  "saison": {
+    "annee_debut": 2024,
+    "annee_fin": 2024,
+    "nom": "2024"
+  },
+  "categorie": "Senior",
+  "genre": "MIXTE",
+  "participants_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203
+  ],
+  "matchs": [
+    {
+      "id": 1,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        1,
+        2
+      ],
+      "resultats": [
+        {
+          "id": 1,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 1
+        },
+        {
+          "id": 2,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 2
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 2,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        3,
+        4
+      ],
+      "resultats": [
+        {
+          "id": 3,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 3
+        },
+        {
+          "id": 4,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 4
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 3,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        5,
+        6
+      ],
+      "resultats": [
+        {
+          "id": 5,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 5
+        },
+        {
+          "id": 6,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 6
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 4,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        7,
+        8
+      ],
+      "resultats": [
+        {
+          "id": 7,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 7
+        },
+        {
+          "id": 8,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 8
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 5,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        9,
+        10
+      ],
+      "resultats": [
+        {
+          "id": 9,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 9
+        },
+        {
+          "id": 10,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 10
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 6,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        11,
+        1
+      ],
+      "resultats": [
+        {
+          "id": 11,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 11
+        },
+        {
+          "id": 12,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 1
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 7,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        3,
+        5
+      ],
+      "resultats": [
+        {
+          "id": 13,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 3
+        },
+        {
+          "id": 14,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 5
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 8,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        12,
+        7
+      ],
+      "resultats": [
+        {
+          "id": 15,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 12
+        },
+        {
+          "id": 16,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 7
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 9,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        9,
+        13
+      ],
+      "resultats": [
+        {
+          "id": 17,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 9
+        },
+        {
+          "id": 18,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 13
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 10,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        11,
+        5
+      ],
+      "resultats": [
+        {
+          "id": 19,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 11
+        },
+        {
+          "id": 20,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 5
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 11,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        12,
+        9
+      ],
+      "resultats": [
+        {
+          "id": 21,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 12
+        },
+        {
+          "id": 22,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 9
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 12,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        5,
+        12
+      ],
+      "resultats": [
+        {
+          "id": 23,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 5
+        },
+        {
+          "id": 24,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 12
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 13,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        14,
+        15
+      ],
+      "resultats": [
+        {
+          "id": 25,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 14
+        },
+        {
+          "id": 26,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 15
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 14,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        16,
+        17
+      ],
+      "resultats": [
+        {
+          "id": 27,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 16
+        },
+        {
+          "id": 28,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 17
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 15,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        18,
+        19
+      ],
+      "resultats": [
+        {
+          "id": 29,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 18
+        },
+        {
+          "id": 30,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 19
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 16,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        20,
+        15
+      ],
+      "resultats": [
+        {
+          "id": 31,
+          "valeur": 4.5,
+          "type": "score",
+          "participant_id": 20
+        },
+        {
+          "id": 32,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 15
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 17,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        16,
+        21
+      ],
+      "resultats": [
+        {
+          "id": 33,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 16
+        },
+        {
+          "id": 34,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 21
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 18,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        22,
+        18
+      ],
+      "resultats": [
+        {
+          "id": 35,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 22
+        },
+        {
+          "id": 36,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 18
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 19,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        23,
+        24
+      ],
+      "resultats": [
+        {
+          "id": 37,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 23
+        },
+        {
+          "id": 38,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 24
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 20,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        20,
+        16
+      ],
+      "resultats": [
+        {
+          "id": 39,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 20
+        },
+        {
+          "id": 40,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 16
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 21,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        22,
+        24
+      ],
+      "resultats": [
+        {
+          "id": 41,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 22
+        },
+        {
+          "id": 42,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 24
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 22,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        20,
+        24
+      ],
+      "resultats": [
+        {
+          "id": 43,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 20
+        },
+        {
+          "id": 44,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 24
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 23,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        25,
+        26
+      ],
+      "resultats": [
+        {
+          "id": 45,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 25
+        },
+        {
+          "id": 46,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 26
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 24,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        27,
+        28
+      ],
+      "resultats": [
+        {
+          "id": 47,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 27
+        },
+        {
+          "id": 48,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 28
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 25,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        29,
+        30
+      ],
+      "resultats": [
+        {
+          "id": 49,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 29
+        },
+        {
+          "id": 50,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 30
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 26,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        31,
+        32
+      ],
+      "resultats": [
+        {
+          "id": 51,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 31
+        },
+        {
+          "id": 52,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 32
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 27,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        33,
+        25
+      ],
+      "resultats": [
+        {
+          "id": 53,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 33
+        },
+        {
+          "id": 54,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 25
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 28,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        34,
+        27
+      ],
+      "resultats": [
+        {
+          "id": 55,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 34
+        },
+        {
+          "id": 56,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 27
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 29,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        35,
+        29
+      ],
+      "resultats": [
+        {
+          "id": 57,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 35
+        },
+        {
+          "id": 58,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 29
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 30,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        31,
+        36
+      ],
+      "resultats": [
+        {
+          "id": 59,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 31
+        },
+        {
+          "id": 60,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 36
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 31,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        33,
+        27
+      ],
+      "resultats": [
+        {
+          "id": 61,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 33
+        },
+        {
+          "id": 62,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 27
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 32,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        29,
+        36
+      ],
+      "resultats": [
+        {
+          "id": 63,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 29
+        },
+        {
+          "id": 64,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 36
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 33,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        27,
+        36
+      ],
+      "resultats": [
+        {
+          "id": 65,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 27
+        },
+        {
+          "id": 66,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 36
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 34,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        37,
+        38
+      ],
+      "resultats": [
+        {
+          "id": 67,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 37
+        },
+        {
+          "id": 68,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 38
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 35,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        39,
+        40
+      ],
+      "resultats": [
+        {
+          "id": 69,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 39
+        },
+        {
+          "id": 70,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 40
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 36,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        41,
+        42
+      ],
+      "resultats": [
+        {
+          "id": 71,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 41
+        },
+        {
+          "id": 72,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 42
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 37,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        43,
+        44
+      ],
+      "resultats": [
+        {
+          "id": 73,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 43
+        },
+        {
+          "id": 74,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 44
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 38,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        45,
+        46
+      ],
+      "resultats": [
+        {
+          "id": 75,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 45
+        },
+        {
+          "id": 76,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 46
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 39,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        47,
+        38
+      ],
+      "resultats": [
+        {
+          "id": 77,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 47
+        },
+        {
+          "id": 78,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 38
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 40,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        39,
+        48
+      ],
+      "resultats": [
+        {
+          "id": 79,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 39
+        },
+        {
+          "id": 80,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 48
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 41,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        41,
+        43
+      ],
+      "resultats": [
+        {
+          "id": 81,
+          "valeur": 4.5,
+          "type": "score",
+          "participant_id": 41
+        },
+        {
+          "id": 82,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 43
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 42,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        46,
+        49
+      ],
+      "resultats": [
+        {
+          "id": 83,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 46
+        },
+        {
+          "id": 84,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 49
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 43,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        47,
+        48
+      ],
+      "resultats": [
+        {
+          "id": 85,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 47
+        },
+        {
+          "id": 86,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 48
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 44,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        41,
+        49
+      ],
+      "resultats": [
+        {
+          "id": 87,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 41
+        },
+        {
+          "id": 88,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 49
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 45,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        48,
+        41
+      ],
+      "resultats": [
+        {
+          "id": 89,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 48
+        },
+        {
+          "id": 90,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 41
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 46,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        50,
+        51
+      ],
+      "resultats": [
+        {
+          "id": 91,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 50
+        },
+        {
+          "id": 92,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 51
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 47,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        52,
+        53
+      ],
+      "resultats": [
+        {
+          "id": 93,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 52
+        },
+        {
+          "id": 94,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 53
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 48,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        54,
+        55
+      ],
+      "resultats": [
+        {
+          "id": 95,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 54
+        },
+        {
+          "id": 96,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 55
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 49,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        56,
+        57
+      ],
+      "resultats": [
+        {
+          "id": 97,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 56
+        },
+        {
+          "id": 98,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 57
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 50,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        58,
+        59
+      ],
+      "resultats": [
+        {
+          "id": 99,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 58
+        },
+        {
+          "id": 100,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 59
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 51,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        60,
+        51
+      ],
+      "resultats": [
+        {
+          "id": 101,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 60
+        },
+        {
+          "id": 102,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 51
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 52,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        52,
+        54
+      ],
+      "resultats": [
+        {
+          "id": 103,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 52
+        },
+        {
+          "id": 104,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 54
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 53,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        56
+      ],
+      "resultats": [
+        {
+          "id": 105,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 61
+        },
+        {
+          "id": 106,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 56
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 54,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        58,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 107,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 58
+        },
+        {
+          "id": 108,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 62
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 55,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        51,
+        54
+      ],
+      "resultats": [
+        {
+          "id": 109,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 51
+        },
+        {
+          "id": 110,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 54
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 56,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 111,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 61
+        },
+        {
+          "id": 112,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 62
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 57,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        54,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 113,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 54
+        },
+        {
+          "id": 114,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 62
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 58,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        64
+      ],
+      "resultats": [
+        {
+          "id": 115,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 63
+        },
+        {
+          "id": 116,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 64
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 59,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        66
+      ],
+      "resultats": [
+        {
+          "id": 117,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 65
+        },
+        {
+          "id": 118,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 66
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 60,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 119,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 67
+        },
+        {
+          "id": 120,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 68
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 61,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 121,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 69
+        },
+        {
+          "id": 122,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 70
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 62,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        72
+      ],
+      "resultats": [
+        {
+          "id": 123,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 71
+        },
+        {
+          "id": 124,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 72
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 63,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 125,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 73
+        },
+        {
+          "id": 126,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 63
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 64,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 127,
+          "valeur": 6.0,
+          "type": "score",
+          "participant_id": 65
+        },
+        {
+          "id": 128,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 74
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 65,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 129,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 67
+        },
+        {
+          "id": 130,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 69
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 66,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 131,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 71
+        },
+        {
+          "id": 132,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 75
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 67,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 133,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 73
+        },
+        {
+          "id": 134,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 65
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 68,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 135,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 69
+        },
+        {
+          "id": 136,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 71
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 69,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 137,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 73
+        },
+        {
+          "id": 138,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 69
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 70,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        76,
+        77
+      ],
+      "resultats": [
+        {
+          "id": 139,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 76
+        },
+        {
+          "id": 140,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 77
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 71,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        78,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 141,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 78
+        },
+        {
+          "id": 142,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 79
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 72,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        80,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 143,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 80
+        },
+        {
+          "id": 144,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 81
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 73,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        82,
+        83
+      ],
+      "resultats": [
+        {
+          "id": 145,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 82
+        },
+        {
+          "id": 146,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 83
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 74,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        84,
+        85
+      ],
+      "resultats": [
+        {
+          "id": 147,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 84
+        },
+        {
+          "id": 148,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 85
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 75,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        86,
+        76
+      ],
+      "resultats": [
+        {
+          "id": 149,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 86
+        },
+        {
+          "id": 150,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 76
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 76,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        78,
+        80
+      ],
+      "resultats": [
+        {
+          "id": 151,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 78
+        },
+        {
+          "id": 152,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 80
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 77,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        87,
+        82
+      ],
+      "resultats": [
+        {
+          "id": 153,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 87
+        },
+        {
+          "id": 154,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 82
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 78,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        84,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 155,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 84
+        },
+        {
+          "id": 156,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 88
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 79,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        86,
+        80
+      ],
+      "resultats": [
+        {
+          "id": 157,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 86
+        },
+        {
+          "id": 158,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 80
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 80,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        87,
+        84
+      ],
+      "resultats": [
+        {
+          "id": 159,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 87
+        },
+        {
+          "id": 160,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 84
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 81,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        86,
+        84
+      ],
+      "resultats": [
+        {
+          "id": 161,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 86
+        },
+        {
+          "id": 162,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 84
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 82,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 163,
+          "valeur": 4.5,
+          "type": "score",
+          "participant_id": 89
+        },
+        {
+          "id": 164,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 90
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 83,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        92
+      ],
+      "resultats": [
+        {
+          "id": 165,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 91
+        },
+        {
+          "id": 166,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 92
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 84,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 167,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 93
+        },
+        {
+          "id": 168,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 94
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 85,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        95,
+        96
+      ],
+      "resultats": [
+        {
+          "id": 169,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 95
+        },
+        {
+          "id": 170,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 96
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 86,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        97,
+        98
+      ],
+      "resultats": [
+        {
+          "id": 171,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 97
+        },
+        {
+          "id": 172,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 98
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 87,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        99,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 173,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 99
+        },
+        {
+          "id": 174,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 89
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 88,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        100
+      ],
+      "resultats": [
+        {
+          "id": 175,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 91
+        },
+        {
+          "id": 176,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 100
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 89,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        95
+      ],
+      "resultats": [
+        {
+          "id": 177,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 93
+        },
+        {
+          "id": 178,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 95
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 90,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        98,
+        101
+      ],
+      "resultats": [
+        {
+          "id": 179,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 98
+        },
+        {
+          "id": 180,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 101
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 91,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        99,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 181,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 99
+        },
+        {
+          "id": 182,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 91
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 92,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        101
+      ],
+      "resultats": [
+        {
+          "id": 183,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 93
+        },
+        {
+          "id": 184,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 101
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 93,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        99,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 185,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 99
+        },
+        {
+          "id": 186,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 93
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 94,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        102,
+        103
+      ],
+      "resultats": [
+        {
+          "id": 187,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 102
+        },
+        {
+          "id": 188,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 103
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 95,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        104,
+        105
+      ],
+      "resultats": [
+        {
+          "id": 189,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 104
+        },
+        {
+          "id": 190,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 105
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 96,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        106,
+        107
+      ],
+      "resultats": [
+        {
+          "id": 191,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 106
+        },
+        {
+          "id": 192,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 107
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 97,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        108,
+        109
+      ],
+      "resultats": [
+        {
+          "id": 193,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 108
+        },
+        {
+          "id": 194,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 109
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 98,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        110,
+        111
+      ],
+      "resultats": [
+        {
+          "id": 195,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 110
+        },
+        {
+          "id": 196,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 111
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 99,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        112,
+        103
+      ],
+      "resultats": [
+        {
+          "id": 197,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 112
+        },
+        {
+          "id": 198,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 103
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 100,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        104,
+        106
+      ],
+      "resultats": [
+        {
+          "id": 199,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 104
+        },
+        {
+          "id": 200,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 106
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 101,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        113,
+        108
+      ],
+      "resultats": [
+        {
+          "id": 201,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 113
+        },
+        {
+          "id": 202,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 108
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 102,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        110,
+        114
+      ],
+      "resultats": [
+        {
+          "id": 203,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 110
+        },
+        {
+          "id": 204,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 114
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 103,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        112,
+        104
+      ],
+      "resultats": [
+        {
+          "id": 205,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 112
+        },
+        {
+          "id": 206,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 104
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 104,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        108,
+        114
+      ],
+      "resultats": [
+        {
+          "id": 207,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 108
+        },
+        {
+          "id": 208,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 114
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 105,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        112,
+        114
+      ],
+      "resultats": [
+        {
+          "id": 209,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 112
+        },
+        {
+          "id": 210,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 114
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 106,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        115,
+        116
+      ],
+      "resultats": [
+        {
+          "id": 211,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 115
+        },
+        {
+          "id": 212,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 116
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 107,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        117,
+        118
+      ],
+      "resultats": [
+        {
+          "id": 213,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 117
+        },
+        {
+          "id": 214,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 118
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 108,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        119,
+        120
+      ],
+      "resultats": [
+        {
+          "id": 215,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 119
+        },
+        {
+          "id": 216,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 120
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 109,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        121,
+        122
+      ],
+      "resultats": [
+        {
+          "id": 217,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 121
+        },
+        {
+          "id": 218,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 122
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 110,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        123,
+        124
+      ],
+      "resultats": [
+        {
+          "id": 219,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 123
+        },
+        {
+          "id": 220,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 124
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 111,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        125,
+        116
+      ],
+      "resultats": [
+        {
+          "id": 221,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 125
+        },
+        {
+          "id": 222,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 116
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 112,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        117,
+        126
+      ],
+      "resultats": [
+        {
+          "id": 223,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 117
+        },
+        {
+          "id": 224,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 126
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 113,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        119,
+        122
+      ],
+      "resultats": [
+        {
+          "id": 225,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 119
+        },
+        {
+          "id": 226,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 122
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 114,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        123,
+        127
+      ],
+      "resultats": [
+        {
+          "id": 227,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 123
+        },
+        {
+          "id": 228,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 127
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 115,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        125,
+        126
+      ],
+      "resultats": [
+        {
+          "id": 229,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 125
+        },
+        {
+          "id": 230,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 126
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 116,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        119,
+        127
+      ],
+      "resultats": [
+        {
+          "id": 231,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 119
+        },
+        {
+          "id": 232,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 127
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 117,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        126,
+        127
+      ],
+      "resultats": [
+        {
+          "id": 233,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 126
+        },
+        {
+          "id": 234,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 127
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 118,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        128,
+        129
+      ],
+      "resultats": [
+        {
+          "id": 235,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 128
+        },
+        {
+          "id": 236,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 129
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 119,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        130,
+        131
+      ],
+      "resultats": [
+        {
+          "id": 237,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 130
+        },
+        {
+          "id": 238,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 131
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 120,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        132,
+        133
+      ],
+      "resultats": [
+        {
+          "id": 239,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 132
+        },
+        {
+          "id": 240,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 133
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 121,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        134,
+        135
+      ],
+      "resultats": [
+        {
+          "id": 241,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 134
+        },
+        {
+          "id": 242,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 135
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 122,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        136,
+        137
+      ],
+      "resultats": [
+        {
+          "id": 243,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 136
+        },
+        {
+          "id": 244,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 137
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 123,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        138,
+        128
+      ],
+      "resultats": [
+        {
+          "id": 245,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 138
+        },
+        {
+          "id": 246,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 128
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 124,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        130,
+        132
+      ],
+      "resultats": [
+        {
+          "id": 247,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 130
+        },
+        {
+          "id": 248,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 132
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 125,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        139,
+        134
+      ],
+      "resultats": [
+        {
+          "id": 249,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 139
+        },
+        {
+          "id": 250,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 134
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 126,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        136,
+        140
+      ],
+      "resultats": [
+        {
+          "id": 251,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 136
+        },
+        {
+          "id": 252,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 140
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 127,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        138,
+        132
+      ],
+      "resultats": [
+        {
+          "id": 253,
+          "valeur": 6.0,
+          "type": "score",
+          "participant_id": 138
+        },
+        {
+          "id": 254,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 132
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 128,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        134,
+        136
+      ],
+      "resultats": [
+        {
+          "id": 255,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 134
+        },
+        {
+          "id": 256,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 136
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 129,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        138,
+        134
+      ],
+      "resultats": [
+        {
+          "id": 257,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 138
+        },
+        {
+          "id": 258,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 134
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 130,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        141,
+        142
+      ],
+      "resultats": [
+        {
+          "id": 259,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 141
+        },
+        {
+          "id": 260,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 142
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 131,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        143,
+        144
+      ],
+      "resultats": [
+        {
+          "id": 261,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 143
+        },
+        {
+          "id": 262,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 144
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 132,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        145,
+        146
+      ],
+      "resultats": [
+        {
+          "id": 263,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 145
+        },
+        {
+          "id": 264,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 146
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 133,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        147,
+        148
+      ],
+      "resultats": [
+        {
+          "id": 265,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 147
+        },
+        {
+          "id": 266,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 148
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 134,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        149,
+        150
+      ],
+      "resultats": [
+        {
+          "id": 267,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 149
+        },
+        {
+          "id": 268,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 150
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 135,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        151,
+        141
+      ],
+      "resultats": [
+        {
+          "id": 269,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 151
+        },
+        {
+          "id": 270,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 141
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 136,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        143,
+        152
+      ],
+      "resultats": [
+        {
+          "id": 271,
+          "valeur": 4.5,
+          "type": "score",
+          "participant_id": 143
+        },
+        {
+          "id": 272,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 152
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 137,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        145,
+        147
+      ],
+      "resultats": [
+        {
+          "id": 273,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 145
+        },
+        {
+          "id": 274,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 147
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 138,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        149,
+        153
+      ],
+      "resultats": [
+        {
+          "id": 275,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 149
+        },
+        {
+          "id": 276,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 153
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 139,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        151,
+        143
+      ],
+      "resultats": [
+        {
+          "id": 277,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 151
+        },
+        {
+          "id": 278,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 143
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 140,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        147,
+        153
+      ],
+      "resultats": [
+        {
+          "id": 279,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 147
+        },
+        {
+          "id": 280,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 153
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 141,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        151,
+        153
+      ],
+      "resultats": [
+        {
+          "id": 281,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 151
+        },
+        {
+          "id": 282,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 153
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 142,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        154,
+        155
+      ],
+      "resultats": [
+        {
+          "id": 283,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 154
+        },
+        {
+          "id": 284,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 155
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 143,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        156,
+        157
+      ],
+      "resultats": [
+        {
+          "id": 285,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 156
+        },
+        {
+          "id": 286,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 157
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 144,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        158,
+        159
+      ],
+      "resultats": [
+        {
+          "id": 287,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 158
+        },
+        {
+          "id": 288,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 159
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 145,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        160,
+        161
+      ],
+      "resultats": [
+        {
+          "id": 289,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 160
+        },
+        {
+          "id": 290,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 161
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 146,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        162,
+        154
+      ],
+      "resultats": [
+        {
+          "id": 291,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 162
+        },
+        {
+          "id": 292,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 154
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 147,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        163,
+        156
+      ],
+      "resultats": [
+        {
+          "id": 293,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 163
+        },
+        {
+          "id": 294,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 156
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 148,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        164,
+        158
+      ],
+      "resultats": [
+        {
+          "id": 295,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 164
+        },
+        {
+          "id": 296,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 158
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 149,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        160,
+        165
+      ],
+      "resultats": [
+        {
+          "id": 297,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 160
+        },
+        {
+          "id": 298,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 165
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 150,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        162,
+        156
+      ],
+      "resultats": [
+        {
+          "id": 299,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 162
+        },
+        {
+          "id": 300,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 156
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 151,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        164,
+        165
+      ],
+      "resultats": [
+        {
+          "id": 301,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 164
+        },
+        {
+          "id": 302,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 165
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 152,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        162,
+        165
+      ],
+      "resultats": [
+        {
+          "id": 303,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 162
+        },
+        {
+          "id": 304,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 165
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 153,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        166,
+        167
+      ],
+      "resultats": [
+        {
+          "id": 305,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 166
+        },
+        {
+          "id": 306,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 167
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 154,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        168,
+        169
+      ],
+      "resultats": [
+        {
+          "id": 307,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 168
+        },
+        {
+          "id": 308,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 169
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 155,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        170,
+        171
+      ],
+      "resultats": [
+        {
+          "id": 309,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 170
+        },
+        {
+          "id": 310,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 171
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 156,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        172,
+        173
+      ],
+      "resultats": [
+        {
+          "id": 311,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 172
+        },
+        {
+          "id": 312,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 173
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 157,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        174,
+        175
+      ],
+      "resultats": [
+        {
+          "id": 313,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 174
+        },
+        {
+          "id": 314,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 175
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 158,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        176,
+        166
+      ],
+      "resultats": [
+        {
+          "id": 315,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 176
+        },
+        {
+          "id": 316,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 166
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 159,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        168,
+        177
+      ],
+      "resultats": [
+        {
+          "id": 317,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 168
+        },
+        {
+          "id": 318,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 177
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 160,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        170,
+        172
+      ],
+      "resultats": [
+        {
+          "id": 319,
+          "valeur": 6.0,
+          "type": "score",
+          "participant_id": 170
+        },
+        {
+          "id": 320,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 172
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 161,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        174,
+        178
+      ],
+      "resultats": [
+        {
+          "id": 321,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 174
+        },
+        {
+          "id": 322,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 178
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 162,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        176,
+        168
+      ],
+      "resultats": [
+        {
+          "id": 323,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 176
+        },
+        {
+          "id": 324,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 168
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 163,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        170,
+        174
+      ],
+      "resultats": [
+        {
+          "id": 325,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 170
+        },
+        {
+          "id": 326,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 174
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 164,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        176,
+        174
+      ],
+      "resultats": [
+        {
+          "id": 327,
+          "valeur": 6.0,
+          "type": "score",
+          "participant_id": 176
+        },
+        {
+          "id": 328,
+          "valeur": 5.0,
+          "type": "score",
+          "participant_id": 174
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 165,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        179,
+        180
+      ],
+      "resultats": [
+        {
+          "id": 329,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 179
+        },
+        {
+          "id": 330,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 180
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 166,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        181,
+        182
+      ],
+      "resultats": [
+        {
+          "id": 331,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 181
+        },
+        {
+          "id": 332,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 182
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 167,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        183,
+        184
+      ],
+      "resultats": [
+        {
+          "id": 333,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 183
+        },
+        {
+          "id": 334,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 184
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 168,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        185,
+        186
+      ],
+      "resultats": [
+        {
+          "id": 335,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 185
+        },
+        {
+          "id": 336,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 186
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 169,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        187,
+        180
+      ],
+      "resultats": [
+        {
+          "id": 337,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 187
+        },
+        {
+          "id": 338,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 180
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 170,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        181,
+        188
+      ],
+      "resultats": [
+        {
+          "id": 339,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 181
+        },
+        {
+          "id": 340,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 188
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 171,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        189,
+        183
+      ],
+      "resultats": [
+        {
+          "id": 341,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 189
+        },
+        {
+          "id": 342,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 183
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 172,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        185,
+        190
+      ],
+      "resultats": [
+        {
+          "id": 343,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 185
+        },
+        {
+          "id": 344,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 190
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 173,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        187,
+        181
+      ],
+      "resultats": [
+        {
+          "id": 345,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 187
+        },
+        {
+          "id": 346,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 181
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 174,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        189,
+        190
+      ],
+      "resultats": [
+        {
+          "id": 347,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 189
+        },
+        {
+          "id": 348,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 190
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 175,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        187,
+        189
+      ],
+      "resultats": [
+        {
+          "id": 349,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 187
+        },
+        {
+          "id": 350,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 189
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 176,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        191,
+        192
+      ],
+      "resultats": [
+        {
+          "id": 351,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 191
+        },
+        {
+          "id": 352,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 192
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 177,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        193,
+        194
+      ],
+      "resultats": [
+        {
+          "id": 353,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 193
+        },
+        {
+          "id": 354,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 194
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 178,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        195,
+        196
+      ],
+      "resultats": [
+        {
+          "id": 355,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 195
+        },
+        {
+          "id": 356,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 196
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 179,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        197,
+        198
+      ],
+      "resultats": [
+        {
+          "id": 357,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 197
+        },
+        {
+          "id": 358,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 198
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 180,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        199,
+        200
+      ],
+      "resultats": [
+        {
+          "id": 359,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 199
+        },
+        {
+          "id": 360,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 200
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 181,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        201,
+        191
+      ],
+      "resultats": [
+        {
+          "id": 361,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 201
+        },
+        {
+          "id": 362,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 191
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 182,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        193,
+        202
+      ],
+      "resultats": [
+        {
+          "id": 363,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 193
+        },
+        {
+          "id": 364,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 202
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 183,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        195,
+        197
+      ],
+      "resultats": [
+        {
+          "id": 365,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 195
+        },
+        {
+          "id": 366,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 197
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 184,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        200,
+        203
+      ],
+      "resultats": [
+        {
+          "id": 367,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 200
+        },
+        {
+          "id": 368,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 203
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 185,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        201,
+        202
+      ],
+      "resultats": [
+        {
+          "id": 369,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 201
+        },
+        {
+          "id": 370,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 202
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 186,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        195,
+        203
+      ],
+      "resultats": [
+        {
+          "id": 371,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 195
+        },
+        {
+          "id": 372,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 203
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 187,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        202,
+        203
+      ],
+      "resultats": [
+        {
+          "id": 373,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 202
+        },
+        {
+          "id": 374,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 203
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 188,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        5,
+        24
+      ],
+      "resultats": [
+        {
+          "id": 375,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 5
+        },
+        {
+          "id": 376,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 24
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 189,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        36,
+        41
+      ],
+      "resultats": [
+        {
+          "id": 377,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 36
+        },
+        {
+          "id": 378,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 41
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 190,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 379,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 62
+        },
+        {
+          "id": 380,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 69
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 191,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        86,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 381,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 86
+        },
+        {
+          "id": 382,
+          "valeur": 4.5,
+          "type": "score",
+          "participant_id": 93
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 192,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        114,
+        126
+      ],
+      "resultats": [
+        {
+          "id": 383,
+          "valeur": 1.0,
+          "type": "score",
+          "participant_id": 114
+        },
+        {
+          "id": 384,
+          "valeur": 3.0,
+          "type": "score",
+          "participant_id": 126
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 193,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        134,
+        151
+      ],
+      "resultats": [
+        {
+          "id": 385,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 134
+        },
+        {
+          "id": 386,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 151
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 194,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        162,
+        176
+      ],
+      "resultats": [
+        {
+          "id": 387,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 162
+        },
+        {
+          "id": 388,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 176
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 195,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        187,
+        203
+      ],
+      "resultats": [
+        {
+          "id": 389,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 187
+        },
+        {
+          "id": 390,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 203
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 196,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        24,
+        41
+      ],
+      "resultats": [
+        {
+          "id": 391,
+          "valeur": 3.5,
+          "type": "score",
+          "participant_id": 24
+        },
+        {
+          "id": 392,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 41
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 197,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 393,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 62
+        },
+        {
+          "id": 394,
+          "valeur": 0.5,
+          "type": "score",
+          "participant_id": 93
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 198,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        126,
+        151
+      ],
+      "resultats": [
+        {
+          "id": 395,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 126
+        },
+        {
+          "id": 396,
+          "valeur": 4.0,
+          "type": "score",
+          "participant_id": 151
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 199,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        162,
+        203
+      ],
+      "resultats": [
+        {
+          "id": 397,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 162
+        },
+        {
+          "id": 398,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 203
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 200,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        24,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 399,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 24
+        },
+        {
+          "id": 400,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 62
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 201,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        151,
+        162
+      ],
+      "resultats": [
+        {
+          "id": 401,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 151
+        },
+        {
+          "id": 402,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 162
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 202,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        151
+      ],
+      "resultats": [
+        {
+          "id": 403,
+          "valeur": 0.0,
+          "type": "score",
+          "participant_id": 62
+        },
+        {
+          "id": 404,
+          "valeur": 2.0,
+          "type": "score",
+          "participant_id": 151
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 203,
+      "date": "2000-01-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        24,
+        162
+      ],
+      "resultats": [
+        {
+          "id": 405,
+          "valeur": 2.5,
+          "type": "score",
+          "participant_id": 24
+        },
+        {
+          "id": 406,
+          "valeur": 1.5,
+          "type": "score",
+          "participant_id": 162
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    }
+  ]
+}

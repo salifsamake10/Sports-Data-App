@@ -8,7 +8,7 @@ class Pays:
 
     Utilisé pour la nationalité des joueurs, équipes, coachs, etc.
 
-    Attributes
+    Attributs
     ----------
     nom : str
         Nom du pays (ex: "France").

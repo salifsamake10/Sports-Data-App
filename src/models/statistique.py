@@ -1,7 +1,5 @@
 """Module définissant la classe Statistique."""
 
-from __future__ import annotations
-
 
 class Statistique:
     """Représente une statistique générique d'un participant.
@@ -9,7 +7,7 @@ class Statistique:
     Permet de stocker n'importe quelle métrique sportive sous forme
     nom/valeur/unité, ce qui rend la classe utilisable pour tous les sports.
 
-    Attributes
+    Attributs
     ----------
     nom : str
         Nom de la statistique (ex: "buts", "elo", "sets_gagnes").

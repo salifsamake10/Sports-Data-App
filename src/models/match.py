@@ -1,24 +1,17 @@
 """Module définissant la classe Match."""
 
-from __future__ import annotations
-
 from datetime import date as date_type
-from typing import TYPE_CHECKING
-
 from .enums import MatchStatus
-
-if TYPE_CHECKING:
-    from .participant import Participant
-    from .resultat import Resultat
+from .participant import Participant
+from .resultat import Resultat
 
 
 class Match:
-    """Représente un match (affrontement entre participants).
+    """Représente un match (rencontre entre participants).
 
-    Un match oppose 2 participants ou plus, suit un cycle de vie
-    (planifié → en cours → terminé) et produit des résultats.
+    Un match oppose 2 participants ou plus) et produit des résultats.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique.

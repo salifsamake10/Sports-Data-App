@@ -9,7 +9,7 @@ class Saison:
     Une saison est une période durant laquelle se déroule une compétition.
     Elle est caractérisée par une année de début et une année de fin.
 
-    Attributes
+    Attributs
     ----------
     annee_debut : int
         Année de début de la saison.

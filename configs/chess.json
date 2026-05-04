@@ -1,0 +1,22 @@
+{
+  "type_mapper": "relationnel",
+  "sport": "Échecs",
+  "competition": "Tournoi d'échecs",
+  "categorie": "Senior",
+  "genre": "MIXTE",
+  "type_participant": "joueur",
+  "type_resultat": "score",
+  "type_classement": "score_total",
+  "saison": {"debut": 2024, "fin": 2024, "nom": "2024"},
+  "pays_defaut": {"nom": "International", "code": "INT"},
+  "dossier": "datasets/chess",
+  "fichier_matchs": "match.csv",
+  "mapping_match": {
+    "date": "round",
+    "participant_1": "player_1",
+    "participant_2": "player_2",
+    "score_1": "score_player_1",
+    "score_2": "score_player_2",
+    "phase": "round"
+  }
+}

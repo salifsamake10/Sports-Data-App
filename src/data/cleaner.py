@@ -1,21 +1,24 @@
-"""Module de nettoyage des données brutes.
+"""Module de nettoyage des données brutes avec pandas.
 
 Effectue un pré-traitement avant la transformation en objets :
 - suppression des doublons
-- nettoyage des espaces parasites
 - gestion des valeurs manquantes
 - normalisation des types (str → int, str → date…)
 """
 
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import date
+
+import pandas as pd
 
 
 class DataCleaner:
-    """Nettoyeur générique de données.
+    """Nettoyeur générique de données utilisant pandas.
 
-    Fournit des méthodes de nettoyage indépendantes du sport.
+    Reçoit une liste de dicts (sortie du loader), la convertit en DataFrame
+    pandas pour le nettoyage, puis la reconvertit en liste de dicts pour
+    le mapper.
     """
 
     def __init__(self, valeurs_manquantes: list[str] | None = None) -> None:
@@ -25,7 +28,7 @@ class DataCleaner:
         ----------
         valeurs_manquantes : list[str], optional
             Liste des chaînes considérées comme valeurs manquantes.
-            Par défaut : ["", "NA", "N/A", "null", "None", "-"].
+            Par défaut : ["", "NA", "N/A", "null", "None", "-", "?"].
         """
         self.valeurs_manquantes = valeurs_manquantes or [
             "",
@@ -38,9 +41,10 @@ class DataCleaner:
         ]
 
     def nettoyer(self, donnees: list[dict]) -> list[dict]:
-        """Pipeline complet de nettoyage.
+        """Pipeline complet de nettoyage avec pandas.
 
-        Applique les étapes : trim, valeurs manquantes, doublons.
+        Convertit les données en DataFrame, applique les nettoyages,
+        puis reconvertit en liste de dicts.
 
         Parameters
         ----------
@@ -52,82 +56,38 @@ class DataCleaner:
         list[dict]
             Données nettoyées.
         """
-        donnees = self.supprimer_espaces(donnees)
-        donnees = self.gerer_valeurs_manquantes(donnees)
-        donnees = self.supprimer_doublons(donnees)
-        return donnees
+        if not donnees:
+            return []
 
-    def supprimer_espaces(self, donnees: list[dict]) -> list[dict]:
-        """Supprime les espaces en début/fin des valeurs textuelles.
+        df = pd.DataFrame(donnees)
 
-        Parameters
-        ----------
-        donnees : list[dict]
-            Données à nettoyer.
+        # 1. Nettoyage des espaces dans les colonnes texte
+        df = self._nettoyer_espaces_df(df)
 
-        Returns
-        -------
-        list[dict]
-            Données avec espaces nettoyés.
-        """
-        return [
-            {k: (v.strip() if isinstance(v, str) else v) for k, v in ligne.items()}
-            for ligne in donnees
-        ]
+        # 2. Remplacer les valeurs manquantes connues par NaN
+        df = df.replace(self.valeurs_manquantes, pd.NA)
 
-    def gerer_valeurs_manquantes(
-        self, donnees: list[dict], remplacement=None
-    ) -> list[dict]:
-        """Remplace les valeurs manquantes par une valeur par défaut.
+        # 3. Supprimer les doublons
+        df = df.drop_duplicates()
 
-        Parameters
-        ----------
-        donnees : list[dict]
-            Données à traiter.
-        remplacement : optional
-            Valeur de remplacement (par défaut None).
+        # 4. Conversion en liste de dicts
+        # On remplace les NaN par None pour la suite du pipeline
+        df = df.where(df.notna(), None)
+        return df.to_dict(orient="records")
 
-        Returns
-        -------
-        list[dict]
-            Données avec valeurs manquantes traitées.
-        """
-        resultat = []
-        for ligne in donnees:
-            ligne_propre = {}
-            for cle, valeur in ligne.items():
-                if isinstance(valeur, str) and valeur in self.valeurs_manquantes:
-                    ligne_propre[cle] = remplacement
-                else:
-                    ligne_propre[cle] = valeur
-            resultat.append(ligne_propre)
-        return resultat
-
-    def supprimer_doublons(self, donnees: list[dict]) -> list[dict]:
-        """Supprime les lignes strictement identiques.
-
-        Parameters
-        ----------
-        donnees : list[dict]
-            Données à dédupliquer.
-
-        Returns
-        -------
-        list[dict]
-            Données sans doublons (ordre préservé).
-        """
-        vu = set()
-        resultat = []
-        for ligne in donnees:
-            cle = tuple(sorted(ligne.items()))
-            if cle not in vu:
-                vu.add(cle)
-                resultat.append(ligne)
-        return resultat
+    def _nettoyer_espaces_df(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Supprime les espaces en début/fin des colonnes texte."""
+        # Sélectionne uniquement les colonnes de type object (str)
+        colonnes_str = df.select_dtypes(include="object").columns
+        for col in colonnes_str:
+            df[col] = df[col].astype(str).str.strip()
+        return df
 
     @staticmethod
     def convertir_int(valeur, defaut: int | None = None) -> int | None:
         """Convertit une valeur en int, avec gestion d'erreur.
+
+        Utilise pd.to_numeric pour bénéficier de la gestion robuste de pandas.
 
         Parameters
         ----------
@@ -141,20 +101,26 @@ class DataCleaner:
         int or None
             Valeur convertie ou défaut.
         """
-        if valeur is None:
+        if valeur is None or pd.isna(valeur):
             return defaut
         try:
-            return int(float(valeur))
+            resultat = pd.to_numeric(valeur, errors="coerce")
+            if pd.isna(resultat):
+                return defaut
+            return int(resultat)
         except (ValueError, TypeError):
             return defaut
 
     @staticmethod
     def convertir_float(valeur, defaut: float | None = None) -> float | None:
-        """Convertit une valeur en float."""
-        if valeur is None:
+        """Convertit une valeur en float avec pandas."""
+        if valeur is None or pd.isna(valeur):
             return defaut
         try:
-            return float(valeur)
+            resultat = pd.to_numeric(valeur, errors="coerce")
+            if pd.isna(resultat):
+                return defaut
+            return float(resultat)
         except (ValueError, TypeError):
             return defaut
 
@@ -162,14 +128,16 @@ class DataCleaner:
     def convertir_date(
         valeur, formats: list[str] | None = None, defaut: date | None = None
     ) -> date | None:
-        """Convertit une chaîne en date.
+        """Convertit une chaîne en date avec pandas.
+
+        Utilise pd.to_datetime qui gère automatiquement de nombreux formats.
 
         Parameters
         ----------
         valeur : str
             Chaîne représentant une date.
         formats : list[str], optional
-            Formats à essayer (par défaut: ISO, FR, US).
+            Formats à essayer. Si None, pandas devine.
         defaut : date, optional
             Valeur par défaut si la conversion échoue.
 
@@ -178,14 +146,22 @@ class DataCleaner:
         date or None
             Date convertie ou défaut.
         """
-        if not valeur:
+        if valeur is None or pd.isna(valeur) or valeur == "":
             return defaut
         if isinstance(valeur, date):
             return valeur
-        formats = formats or ["%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y", "%d-%m-%Y"]
-        for fmt in formats:
-            try:
-                return datetime.strptime(str(valeur), fmt).date()
-            except ValueError:
-                continue
-        return defaut
+
+        # Essai sans format imposé (pandas est très tolérant)
+        try:
+            resultat = pd.to_datetime(valeur, errors="coerce")
+            if pd.isna(resultat):
+                # Essai avec les formats explicites si fournis
+                if formats:
+                    for fmt in formats:
+                        resultat = pd.to_datetime(valeur, format=fmt, errors="coerce")
+                        if not pd.isna(resultat):
+                            return resultat.date()
+                return defaut
+            return resultat.date()
+        except Exception:
+            return defaut

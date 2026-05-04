@@ -7,7 +7,7 @@ from .pays import Pays
 class Coach:
     """Représente un entraîneur d'équipe.
 
-    Attributes
+    Attributs
     ----------
     nom : str
         Nom de famille du coach.

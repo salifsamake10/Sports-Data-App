@@ -2,10 +2,10 @@
 
 Usage
 -----
-    python -m src.main --config configs/ligue1.json
-    python -m src.main --config configs/ligue1.json --action classement
-    python -m src.main --config configs/ligue1.json --action stats
-    python -m src.main --config configs/ligue1.json --action sauvegarder
+    python -m src.main --config configs/ligue1_relationnel.json
+    python -m src.main --config configs/tennis_atp.json --action classement
+    python -m src.main --config configs/basketball_nba.json --action stats
+    python -m src.main --config configs/chess.json --action sauvegarder
 """
 
 from __future__ import annotations
@@ -20,12 +20,14 @@ from src.data import (
     DataMapper,
     DataSaver,
     DataValidator,
+    RelationalMapper,
     ValidationError,
     get_loader,
 )
 from src.models import Competition
 from src.services import (
     ClassementService,
+    RechercheService,
     StatistiquesService,
 )
 
@@ -42,6 +44,9 @@ def charger_config(path: str | Path) -> dict:
 def construire_competition(config: dict) -> Competition:
     """Pipeline complet : load → clean → validate → map → competition.
 
+    Branche entre RelationalMapper (multi-fichiers) et DataMapper simple
+    selon la valeur de "type_mapper" dans la config.
+
     Parameters
     ----------
     config : dict
@@ -51,25 +56,25 @@ def construire_competition(config: dict) -> Competition:
     -------
     Competition
         Competition entièrement construite.
-
-    Raises
-    ------
-    ValidationError
-        Si les données ne respectent pas le schéma.
     """
-    print(f"\n=== Chargement de '{config.get('competition', '?')}' ===")
+    nom = config.get("competition", config.get("ligue_filtre", "?"))
+    print(f"\n=== Chargement de '{nom}' ===")
 
-    # 1. Lecture brute
+    # Mapper relationnel (multi-fichiers liés par id)
+    if config.get("type_mapper") == "relationnel":
+        mapper = RelationalMapper(config)
+        competition = mapper.construire_competition()
+        return competition
+
+    # Mapper simple (un seul fichier CSV)
     loader = get_loader(config["format_fichier"])
     donnees_brutes = loader.load(config["fichier_donnees"])
     print(f"  ✓ {len(donnees_brutes)} lignes brutes chargées")
 
-    # 2. Nettoyage
     cleaner = DataCleaner()
     donnees_propres = cleaner.nettoyer(donnees_brutes)
     print(f"  ✓ {len(donnees_propres)} lignes après nettoyage")
 
-    # 3. Validation
     schema = config.get("schema_validation")
     if schema:
         validator = DataValidator(schema)
@@ -77,12 +82,9 @@ def construire_competition(config: dict) -> Competition:
             print("  ⚠ Avertissements de validation :")
             for err in validator.erreurs[:5]:
                 print(f"    - {err}")
-            if len(validator.erreurs) > 5:
-                print(f"    ... et {len(validator.erreurs) - 5} autres.")
         else:
             print("  ✓ Validation OK")
 
-    # 4. Construction des objets
     mapper = DataMapper(config)
     competition = mapper.construire_competition(donnees_propres)
     print(
@@ -94,7 +96,7 @@ def construire_competition(config: dict) -> Competition:
 
 
 def afficher_classement(competition: Competition, config: dict) -> None:
-    """Affiche le classement selon le sport."""
+    """Affiche le classement selon le type configuré."""
     print(f"\n=== Classement — {competition.nom} ===\n")
     type_classement = config.get("type_classement", "points_3_1_0")
     type_resultat = config.get("type_resultat", "buts")
@@ -105,6 +107,10 @@ def afficher_classement(competition: Competition, config: dict) -> None:
         )
     elif type_classement == "victoires":
         classement = ClassementService.classement_par_victoires(competition)
+    elif type_classement == "score_total":
+        classement = ClassementService.classement_par_score_total(
+            competition, type_resultat
+        )
     else:
         classement = ClassementService.classement_par_score_total(
             competition, type_resultat
@@ -114,7 +120,7 @@ def afficher_classement(competition: Competition, config: dict) -> None:
 
 
 def afficher_statistiques(competition: Competition, config: dict) -> None:
-    """Affiche les statistiques globales de la compétition."""
+    """Affiche les statistiques globales."""
     print(f"\n=== Statistiques — {competition.nom} ===\n")
     type_resultat = config.get("type_resultat", "buts")
 
@@ -122,29 +128,17 @@ def afficher_statistiques(competition: Competition, config: dict) -> None:
     for cle, valeur in rapport.items():
         print(f"  {cle:<25} : {valeur}")
 
-    print("\n--- Top 5 attaques ---")
+    print("\n--- Top 5 ---")
     top = StatistiquesService.top_n_buteurs(
         competition, n=5, type_resultat=type_resultat
     )
     for i, (p, v) in enumerate(top, 1):
-        print(f"  {i}. {p.nom:<20} {v:.0f} {type_resultat}")
-
-    meilleure_def = StatistiquesService.meilleure_defense(
-        competition, type_resultat=type_resultat
-    )
-    if meilleure_def:
-        print(f"\nMeilleure défense : {meilleure_def.nom}")
-
-    spectaculaires = StatistiquesService.matchs_avec_plus_de(
-        competition, seuil=4, type_resultat=type_resultat
-    )
-    if spectaculaires:
-        print(f"\nMatchs avec plus de 4 {type_resultat} : {len(spectaculaires)}")
+        print(f"  {i}. {p.nom:<25} {v:.0f} {type_resultat}")
 
 
 def sauvegarder(competition: Competition, config: dict) -> None:
     """Sauvegarde la compétition au format JSON."""
-    nom_fichier = config.get("competition", "competition").lower().replace(" ", "_")
+    nom_fichier = competition.nom.lower().replace(" ", "_").replace("/", "_")
     chemin = Path("output") / f"{nom_fichier}.json"
     saver = DataSaver()
     saver.sauvegarder_competition(competition, chemin)
@@ -155,54 +149,30 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     """Parse les arguments de la ligne de commande."""
     parser = argparse.ArgumentParser(
         description="Application de gestion de résultats sportifs",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Exemples :
-  python -m src.main --config configs/ligue1.json
-  python -m src.main --config configs/ligue1.json --action classement
-  python -m src.main --config configs/ligue1.json --action stats
-  python -m src.main --config configs/ligue1.json --action sauvegarder
-        """,
     )
-    parser.add_argument(
-        "--config",
-        required=True,
-        help="Chemin vers le fichier de configuration JSON.",
-    )
+    parser.add_argument("--config", required=True, help="Chemin vers la config JSON.")
     parser.add_argument(
         "--action",
         choices=["all", "classement", "stats", "sauvegarder"],
         default="all",
-        help="Action à effectuer (par défaut : all).",
     )
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
-    """Fonction principale.
-
-    Parameters
-    ----------
-    argv : list[str], optional
-        Arguments CLI (None pour utiliser sys.argv).
-
-    Returns
-    -------
-    int
-        Code de sortie (0 si succès).
-    """
+    """Fonction principale."""
     args = parse_args(argv)
 
     try:
         config = charger_config(args.config)
     except FileNotFoundError as exc:
-        print(f"{exc}", file=sys.stderr)
+        print(f"❌ {exc}", file=sys.stderr)
         return 1
 
     try:
         competition = construire_competition(config)
-    except (ValidationError, KeyError, ValueError) as exc:
-        print(f"Erreur de chargement : {exc}", file=sys.stderr)
+    except (ValidationError, KeyError, ValueError, FileNotFoundError) as exc:
+        print(f"❌ Erreur de chargement : {exc}", file=sys.stderr)
         return 2
 
     if args.action in ("all", "classement"):

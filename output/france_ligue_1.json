@@ -1,0 +1,9539 @@
+{
+  "id": 1,
+  "nom": "France Ligue 1",
+  "sport": {
+    "id": 1,
+    "nom": "Football"
+  },
+  "saison": {
+    "annee_debut": 2015,
+    "annee_fin": 2016,
+    "nom": "2015/2016"
+  },
+  "categorie": "Senior",
+  "genre": "MASCULIN",
+  "participants_ids": [
+    89,
+    74,
+    62,
+    88,
+    73,
+    71,
+    68,
+    67,
+    75,
+    63,
+    81,
+    93,
+    61,
+    91,
+    65,
+    70,
+    69,
+    79,
+    90,
+    94
+  ],
+  "matchs": [
+    {
+      "id": 1,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 1,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 2,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 2,
+      "date": "2015-08-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 3,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 4,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 3,
+      "date": "2015-08-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 5,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 6,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 4,
+      "date": "2015-08-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 7,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 8,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 5,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 9,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 10,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 6,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 11,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 12,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 7,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 13,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 14,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 8,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 15,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 16,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 9,
+      "date": "2015-08-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 17,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 18,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 10,
+      "date": "2015-08-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 19,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 20,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "1",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 11,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 21,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 22,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 12,
+      "date": "2015-10-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 23,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 24,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 13,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 25,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 26,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 14,
+      "date": "2015-10-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 27,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 28,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 15,
+      "date": "2015-10-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 29,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 30,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 16,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 31,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 32,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 17,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 33,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 34,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 18,
+      "date": "2015-10-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 35,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 36,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 19,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 37,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 38,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 20,
+      "date": "2015-10-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 39,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 40,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "10",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 21,
+      "date": "2015-10-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 41,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 42,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 22,
+      "date": "2015-10-25",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 43,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 44,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 23,
+      "date": "2015-10-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 45,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 46,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 24,
+      "date": "2015-10-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 47,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 48,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 25,
+      "date": "2015-10-25",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 49,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 50,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 26,
+      "date": "2015-10-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 51,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 52,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 27,
+      "date": "2015-10-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 53,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 54,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 28,
+      "date": "2015-10-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 55,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 56,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 29,
+      "date": "2015-10-25",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 57,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 58,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 30,
+      "date": "2015-10-25",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 59,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 60,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "11",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 31,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 61,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 62,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 32,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 63,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 64,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 33,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 65,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 66,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 34,
+      "date": "2015-11-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 67,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 68,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 35,
+      "date": "2015-11-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 69,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 70,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 36,
+      "date": "2015-11-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 71,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 72,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 37,
+      "date": "2015-10-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 73,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 74,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 38,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 75,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 76,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 39,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 77,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 78,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 40,
+      "date": "2015-10-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 79,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 80,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "12",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 41,
+      "date": "2015-11-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 81,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 82,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 42,
+      "date": "2015-11-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 83,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 84,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 43,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 85,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 86,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 44,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 87,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 88,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 45,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 89,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 90,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 46,
+      "date": "2015-11-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 91,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 92,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 47,
+      "date": "2015-11-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 93,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 94,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 48,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 95,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 96,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 49,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 97,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 98,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 50,
+      "date": "2015-11-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 99,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 100,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "13",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 51,
+      "date": "2015-11-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 101,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 102,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 52,
+      "date": "2015-11-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 103,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 104,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 53,
+      "date": "2015-11-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 105,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 106,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 54,
+      "date": "2015-11-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 107,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 108,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 55,
+      "date": "2015-11-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 109,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 110,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 56,
+      "date": "2015-11-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 111,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 112,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 57,
+      "date": "2015-11-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 113,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 114,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 58,
+      "date": "2015-11-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 115,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 116,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 59,
+      "date": "2015-11-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 117,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 118,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 60,
+      "date": "2015-11-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 119,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 120,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "14",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 61,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 121,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 122,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 62,
+      "date": "2015-11-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 123,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 124,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 63,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 125,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 126,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 64,
+      "date": "2015-11-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 127,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 128,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 65,
+      "date": "2015-11-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 129,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 130,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 66,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 131,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 132,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 67,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 133,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 134,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 68,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 135,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 136,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 69,
+      "date": "2015-11-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 137,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 138,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 70,
+      "date": "2015-11-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 139,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 140,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "15",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 71,
+      "date": "2015-12-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 141,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 142,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 72,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 143,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 144,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 73,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 145,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 146,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 74,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 147,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 148,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 75,
+      "date": "2015-12-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 149,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 150,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 76,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 151,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 152,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 77,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 153,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 154,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 78,
+      "date": "2015-12-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 155,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 156,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 79,
+      "date": "2015-12-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 157,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 158,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 80,
+      "date": "2015-12-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 159,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 160,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "16",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 81,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 161,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 162,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 82,
+      "date": "2015-12-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 163,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 164,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 83,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 165,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 166,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 84,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 167,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 168,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 85,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 169,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 170,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 86,
+      "date": "2015-12-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 171,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 172,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 87,
+      "date": "2015-12-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 173,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 174,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 88,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 175,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 176,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 89,
+      "date": "2015-12-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 177,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 178,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 90,
+      "date": "2015-12-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 179,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 180,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "17",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 91,
+      "date": "2015-12-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 181,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 182,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 92,
+      "date": "2015-12-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 183,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 184,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 93,
+      "date": "2015-12-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 185,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 186,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 94,
+      "date": "2015-12-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 187,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 188,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 95,
+      "date": "2015-12-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 189,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 190,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 96,
+      "date": "2015-12-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 191,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 192,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 97,
+      "date": "2015-12-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 193,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 194,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 98,
+      "date": "2015-12-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 195,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 196,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 99,
+      "date": "2015-12-11",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 197,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 198,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 100,
+      "date": "2015-12-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 199,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 200,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "18",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 101,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 201,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 202,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 102,
+      "date": "2015-12-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 203,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 204,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 103,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 205,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 206,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 104,
+      "date": "2015-12-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 207,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 208,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 105,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 209,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 210,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 106,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 211,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 212,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 107,
+      "date": "2015-12-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 213,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 214,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 108,
+      "date": "2015-12-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 215,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 216,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 109,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 217,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 218,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 110,
+      "date": "2015-12-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 219,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 220,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "19",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 111,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 221,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 222,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 112,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 223,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 224,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 113,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 225,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 226,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 114,
+      "date": "2015-08-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 227,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 228,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 115,
+      "date": "2015-08-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 229,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 230,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 116,
+      "date": "2015-08-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 231,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 232,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 117,
+      "date": "2015-08-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 233,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 234,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 118,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 235,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 236,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 119,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 237,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 238,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 120,
+      "date": "2015-08-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 239,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 240,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "2",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 121,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 241,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 242,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 122,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 243,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 244,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 123,
+      "date": "2016-01-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 245,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 246,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 124,
+      "date": "2016-01-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 247,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 248,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 125,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 249,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 250,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 126,
+      "date": "2016-01-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 251,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 252,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 127,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 253,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 254,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 128,
+      "date": "2016-01-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 255,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 256,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 129,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 257,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 258,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 130,
+      "date": "2016-01-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 259,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 260,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "20",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 131,
+      "date": "2016-01-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 261,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 262,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 132,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 263,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 264,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 133,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 265,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 266,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 134,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 267,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 268,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 135,
+      "date": "2016-01-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 269,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 270,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 136,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 271,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 272,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 137,
+      "date": "2016-01-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 273,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 274,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 138,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 275,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 276,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 139,
+      "date": "2016-01-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 277,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 278,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 140,
+      "date": "2016-01-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 279,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 280,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "21",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 141,
+      "date": "2016-01-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 281,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 282,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 142,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 283,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 284,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 143,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 285,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 286,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 144,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 287,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 288,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 145,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 289,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 290,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 146,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 291,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 292,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 147,
+      "date": "2016-01-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 293,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 294,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 148,
+      "date": "2016-01-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 295,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 296,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 149,
+      "date": "2016-01-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 297,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 298,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 150,
+      "date": "2016-01-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 299,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 300,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "22",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 151,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 301,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 302,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 152,
+      "date": "2016-01-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 303,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 304,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 153,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 305,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 306,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 154,
+      "date": "2016-01-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 307,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 308,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 155,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 309,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 310,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 156,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 311,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 312,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 157,
+      "date": "2016-01-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 313,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 314,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 158,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 315,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 316,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 159,
+      "date": "2016-01-31",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 317,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 318,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 160,
+      "date": "2016-01-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 319,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 320,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "23",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 161,
+      "date": "2016-02-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 321,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 322,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 162,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 323,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 324,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 163,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 325,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 326,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 164,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 327,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 328,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 165,
+      "date": "2016-02-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 329,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 330,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 166,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 331,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 332,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 167,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 333,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 334,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 168,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 335,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 336,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 169,
+      "date": "2016-02-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 337,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 338,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 170,
+      "date": "2016-02-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 339,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 340,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "24",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 171,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 341,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 342,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 172,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 343,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 344,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 173,
+      "date": "2016-02-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 345,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 346,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 174,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 347,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 348,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 175,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 349,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 350,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 176,
+      "date": "2016-02-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 351,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 352,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 177,
+      "date": "2016-02-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 353,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 354,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 178,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 355,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 356,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 179,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 357,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 358,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 180,
+      "date": "2016-02-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 359,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 360,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "25",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 181,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 361,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 362,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 182,
+      "date": "2016-02-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 363,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 364,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 183,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 365,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 366,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 184,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 367,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 368,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 185,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 369,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 370,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 186,
+      "date": "2016-02-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 371,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 372,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 187,
+      "date": "2016-02-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 373,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 374,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 188,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 375,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 376,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 189,
+      "date": "2016-02-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 377,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 378,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 190,
+      "date": "2016-02-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 379,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 380,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "26",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 191,
+      "date": "2016-02-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 381,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 382,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 192,
+      "date": "2016-02-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 383,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 384,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 193,
+      "date": "2016-02-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 385,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 386,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 194,
+      "date": "2016-02-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 387,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 388,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 195,
+      "date": "2016-02-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 389,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 390,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 196,
+      "date": "2016-02-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 391,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 392,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 197,
+      "date": "2016-02-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 393,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 394,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 198,
+      "date": "2016-03-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 395,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 396,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 199,
+      "date": "2016-02-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 397,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 398,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 200,
+      "date": "2016-02-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 399,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 400,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "27",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 201,
+      "date": "2016-02-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 401,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 402,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 202,
+      "date": "2016-02-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 403,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 404,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 203,
+      "date": "2016-02-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 405,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 406,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 204,
+      "date": "2016-02-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 407,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 408,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 205,
+      "date": "2016-03-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 409,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 410,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 206,
+      "date": "2016-02-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 411,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 412,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 207,
+      "date": "2016-02-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 413,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 414,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 208,
+      "date": "2016-02-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 415,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 416,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 209,
+      "date": "2016-02-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 417,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 418,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 210,
+      "date": "2016-02-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 419,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 420,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "28",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 211,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 421,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 422,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 212,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 423,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 424,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 213,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 425,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 426,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 214,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 427,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 428,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 215,
+      "date": "2016-03-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 429,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 430,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 216,
+      "date": "2016-03-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 431,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 432,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 217,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 433,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 434,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 218,
+      "date": "2016-03-05",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 435,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 436,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 219,
+      "date": "2016-03-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 437,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 438,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 220,
+      "date": "2016-03-06",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 439,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 440,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "29",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 221,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 441,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 442,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 222,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 443,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 444,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 223,
+      "date": "2015-08-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 445,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 446,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 224,
+      "date": "2015-08-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 447,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 448,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 225,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 449,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 450,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 226,
+      "date": "2015-08-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 451,
+          "valeur": 6.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 452,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 227,
+      "date": "2015-08-21",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 453,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 454,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 228,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 455,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 456,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 229,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 457,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 458,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 230,
+      "date": "2015-08-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 459,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 460,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "3",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 231,
+      "date": "2016-03-11",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 461,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 462,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 232,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 463,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 464,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 233,
+      "date": "2016-03-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 465,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 466,
+          "valeur": 9.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 234,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 467,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 468,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 235,
+      "date": "2016-03-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 469,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 470,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 236,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 471,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 472,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 237,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 473,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 474,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 238,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 475,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 476,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 239,
+      "date": "2016-03-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 477,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 478,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 240,
+      "date": "2016-03-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 479,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 480,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "30",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 241,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 481,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 482,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 242,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 483,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 484,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 243,
+      "date": "2016-03-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 485,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 486,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 244,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 487,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 488,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 245,
+      "date": "2016-03-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 489,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 490,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 246,
+      "date": "2016-03-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 491,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 492,
+          "valeur": 5.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 247,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 493,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 494,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 248,
+      "date": "2016-03-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 495,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 496,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 249,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 497,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 498,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 250,
+      "date": "2016-03-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 499,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 500,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "31",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 251,
+      "date": "2016-04-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 501,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 502,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 252,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 503,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 504,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 253,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 505,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 506,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 254,
+      "date": "2016-04-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 507,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 508,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 255,
+      "date": "2016-04-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 509,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 510,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 256,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 511,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 512,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 257,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 513,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 514,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 258,
+      "date": "2016-04-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 515,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 516,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 259,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 517,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 518,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 260,
+      "date": "2016-04-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 519,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 520,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "32",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 261,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 521,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 522,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 262,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 523,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 524,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 263,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 525,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 526,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 264,
+      "date": "2016-04-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 527,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 528,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 265,
+      "date": "2016-04-08",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 529,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 530,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 266,
+      "date": "2016-04-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 531,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 532,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 267,
+      "date": "2016-04-10",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 533,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 534,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 268,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 535,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 536,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 269,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 537,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 538,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 270,
+      "date": "2016-04-09",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 539,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 540,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "33",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 271,
+      "date": "2016-04-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 541,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 542,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 272,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 543,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 544,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 273,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 545,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 546,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 274,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 547,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 548,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 275,
+      "date": "2016-04-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 549,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 550,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 276,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 551,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 552,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 277,
+      "date": "2016-04-15",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 553,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 554,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 278,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 555,
+          "valeur": 6.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 556,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 279,
+      "date": "2016-04-16",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 557,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 558,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 280,
+      "date": "2016-04-17",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 559,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 560,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "34",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 281,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 561,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 562,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 282,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 563,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 564,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 283,
+      "date": "2016-05-11",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 565,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 566,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 284,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 567,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 568,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 285,
+      "date": "2016-04-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 569,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 570,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 286,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 571,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 572,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 287,
+      "date": "2016-04-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 573,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 574,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 288,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 575,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 576,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 289,
+      "date": "2016-04-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 577,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 578,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 290,
+      "date": "2016-04-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 579,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 580,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "35",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 291,
+      "date": "2016-05-01",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 581,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 582,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 292,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 583,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 584,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 293,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 585,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 586,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 294,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 587,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 588,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 295,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 589,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 590,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 296,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 591,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 592,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 297,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 593,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 594,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 298,
+      "date": "2016-04-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 595,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 596,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 299,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 597,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 598,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 300,
+      "date": "2016-04-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 599,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 600,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "36",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 301,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 601,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 602,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 302,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 603,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 604,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 303,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 605,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 606,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 304,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 607,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 608,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 305,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 609,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 610,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 306,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 611,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 612,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 307,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 613,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 614,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 308,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 615,
+          "valeur": 6.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 616,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 309,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 617,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 618,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 310,
+      "date": "2016-05-07",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 619,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 620,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "37",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 311,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 621,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 622,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 312,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 623,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 624,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 313,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 625,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 626,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 314,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 627,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 628,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 315,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 629,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 630,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 316,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 631,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 632,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 317,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 633,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 634,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 318,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 635,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 636,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 319,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 637,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 638,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 320,
+      "date": "2016-05-14",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 639,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 640,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "38",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 321,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 641,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 642,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 322,
+      "date": "2015-08-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 643,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 644,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 323,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 645,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 646,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 324,
+      "date": "2015-08-28",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 647,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 648,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 325,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 649,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 650,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 326,
+      "date": "2015-08-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 651,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 652,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 327,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 653,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 654,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 328,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 655,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 656,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 329,
+      "date": "2015-08-30",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 657,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 658,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 330,
+      "date": "2015-08-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 659,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 660,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "4",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 331,
+      "date": "2015-09-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 661,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 662,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 332,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 663,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 664,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 333,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 665,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 666,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 334,
+      "date": "2015-09-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 667,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 668,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 335,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 669,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 670,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 336,
+      "date": "2015-09-13",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 671,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 672,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 337,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 673,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 674,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 338,
+      "date": "2015-09-11",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 675,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 676,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 339,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 677,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 678,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 340,
+      "date": "2015-09-12",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 679,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 680,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "5",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 341,
+      "date": "2015-09-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 681,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 682,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 342,
+      "date": "2015-09-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 683,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 684,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 343,
+      "date": "2015-09-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 685,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 686,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 344,
+      "date": "2015-09-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 687,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 688,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 345,
+      "date": "2015-09-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 689,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 690,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 346,
+      "date": "2015-09-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 691,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 692,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 347,
+      "date": "2015-09-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 693,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 694,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 348,
+      "date": "2015-09-19",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 695,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 696,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 349,
+      "date": "2015-09-18",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 697,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 698,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 350,
+      "date": "2015-09-20",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 699,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 700,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "6",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 351,
+      "date": "2015-09-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 701,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 702,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 352,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 703,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 704,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 353,
+      "date": "2015-09-29",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 705,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 706,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 354,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        63
+      ],
+      "resultats": [
+        {
+          "id": 707,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 708,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 63
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 355,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 709,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 710,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 356,
+      "date": "2015-09-24",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 711,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 712,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 357,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 713,
+          "valeur": 6.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 714,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 358,
+      "date": "2015-09-22",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 715,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 716,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 359,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        69,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 717,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 69
+        },
+        {
+          "id": 718,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 360,
+      "date": "2015-09-23",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 719,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 720,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "7",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 361,
+      "date": "2015-09-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        89,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 721,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 89
+        },
+        {
+          "id": 722,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 362,
+      "date": "2015-09-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        62,
+        68
+      ],
+      "resultats": [
+        {
+          "id": 723,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 62
+        },
+        {
+          "id": 724,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 363,
+      "date": "2015-09-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        94
+      ],
+      "resultats": [
+        {
+          "id": 725,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 726,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 94
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 364,
+      "date": "2015-09-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        91,
+        70
+      ],
+      "resultats": [
+        {
+          "id": 727,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 91
+        },
+        {
+          "id": 728,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 70
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 365,
+      "date": "2015-09-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        75,
+        93
+      ],
+      "resultats": [
+        {
+          "id": 729,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        },
+        {
+          "id": 730,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 93
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 366,
+      "date": "2015-09-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        81,
+        67
+      ],
+      "resultats": [
+        {
+          "id": 731,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 81
+        },
+        {
+          "id": 732,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 67
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 367,
+      "date": "2015-09-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        61,
+        71
+      ],
+      "resultats": [
+        {
+          "id": 733,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 61
+        },
+        {
+          "id": 734,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 71
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 368,
+      "date": "2015-09-25",
+      "statut": "TERMINE",
+      "participants_ids": [
+        88,
+        73
+      ],
+      "resultats": [
+        {
+          "id": 735,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 88
+        },
+        {
+          "id": 736,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 73
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 369,
+      "date": "2015-09-26",
+      "statut": "TERMINE",
+      "participants_ids": [
+        74,
+        90
+      ],
+      "resultats": [
+        {
+          "id": 737,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        },
+        {
+          "id": 738,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 90
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 370,
+      "date": "2015-09-27",
+      "statut": "TERMINE",
+      "participants_ids": [
+        79,
+        65
+      ],
+      "resultats": [
+        {
+          "id": 739,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 79
+        },
+        {
+          "id": 740,
+          "valeur": 4.0,
+          "type": "buts",
+          "participant_id": 65
+        }
+      ],
+      "phase": "8",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 371,
+      "date": "2015-10-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        93,
+        89
+      ],
+      "resultats": [
+        {
+          "id": 741,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 93
+        },
+        {
+          "id": 742,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 89
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 372,
+      "date": "2015-10-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        63,
+        79
+      ],
+      "resultats": [
+        {
+          "id": 743,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 63
+        },
+        {
+          "id": 744,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 79
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 373,
+      "date": "2015-10-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        94,
+        69
+      ],
+      "resultats": [
+        {
+          "id": 745,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 94
+        },
+        {
+          "id": 746,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 69
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 374,
+      "date": "2015-10-02",
+      "statut": "TERMINE",
+      "participants_ids": [
+        73,
+        81
+      ],
+      "resultats": [
+        {
+          "id": 747,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 73
+        },
+        {
+          "id": 748,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 81
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 375,
+      "date": "2015-10-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        67,
+        62
+      ],
+      "resultats": [
+        {
+          "id": 749,
+          "valeur": 3.0,
+          "type": "buts",
+          "participant_id": 67
+        },
+        {
+          "id": 750,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 62
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 376,
+      "date": "2015-10-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        68,
+        88
+      ],
+      "resultats": [
+        {
+          "id": 751,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 68
+        },
+        {
+          "id": 752,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 88
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 377,
+      "date": "2015-10-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        70,
+        74
+      ],
+      "resultats": [
+        {
+          "id": 753,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 70
+        },
+        {
+          "id": 754,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 74
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 378,
+      "date": "2015-10-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        71,
+        75
+      ],
+      "resultats": [
+        {
+          "id": 755,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 71
+        },
+        {
+          "id": 756,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 75
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 379,
+      "date": "2015-10-03",
+      "statut": "TERMINE",
+      "participants_ids": [
+        90,
+        91
+      ],
+      "resultats": [
+        {
+          "id": 757,
+          "valeur": 0.0,
+          "type": "buts",
+          "participant_id": 90
+        },
+        {
+          "id": 758,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 91
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    },
+    {
+      "id": 380,
+      "date": "2015-11-04",
+      "statut": "TERMINE",
+      "participants_ids": [
+        65,
+        61
+      ],
+      "resultats": [
+        {
+          "id": 759,
+          "valeur": 1.0,
+          "type": "buts",
+          "participant_id": 65
+        },
+        {
+          "id": 760,
+          "valeur": 2.0,
+          "type": "buts",
+          "participant_id": 61
+        }
+      ],
+      "phase": "9",
+      "type_fin": "REGLEMENTAIRE"
+    }
+  ]
+}

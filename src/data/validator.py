@@ -22,7 +22,7 @@ class DataValidator:
             "types": {"score_dom": "int", "date": "str", ...}
         }
 
-    Attributes
+    Attributs
     ----------
     schema : dict
         Schéma de validation.

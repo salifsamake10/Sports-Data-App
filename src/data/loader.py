@@ -1,4 +1,4 @@
-"""Module de chargement des données brutes (CSV, JSON).
+"""Module de chargement des données brutes (CSV, JSON) avec pandas.
 
 Ce module est volontairement générique : il ne connaît pas le sport,
 il se contente de lire un fichier et retourner une liste de dictionnaires.
@@ -7,10 +7,10 @@ La transformation en objets métier est faite par mapper.py.
 
 from __future__ import annotations
 
-import csv
-import json
 from abc import ABC, abstractmethod
 from pathlib import Path
+
+import pandas as pd
 
 
 class DataLoader(ABC):
@@ -43,10 +43,9 @@ class DataLoader(ABC):
 
 
 class CSVLoader(DataLoader):
-    """Chargeur pour les fichiers CSV.
+    """Chargeur pour les fichiers CSV utilisant pandas.
 
-    Utilise csv.DictReader pour transformer chaque ligne en dict
-    où les clés sont les noms de colonnes.
+    Utilise pd.read_csv pour lire le fichier puis convertit en liste de dicts.
     """
 
     def __init__(self, delimiter: str = ",", encoding: str = "utf-8") -> None:
@@ -63,7 +62,7 @@ class CSVLoader(DataLoader):
         self.encoding = encoding
 
     def load(self, path: str | Path) -> list[dict]:
-        """Charge un CSV et retourne une liste de dicts.
+        """Charge un CSV avec pandas et retourne une liste de dicts.
 
         Parameters
         ----------
@@ -84,16 +83,15 @@ class CSVLoader(DataLoader):
         if not chemin.exists():
             raise FileNotFoundError(f"Fichier introuvable : {chemin}")
 
-        with open(chemin, encoding=self.encoding, newline="") as f:
-            reader = csv.DictReader(f, delimiter=self.delimiter)
-            return list(reader)
+        df = pd.read_csv(chemin, sep=self.delimiter, encoding=self.encoding)
+        # Conversion en liste de dicts pour rester compatible avec le mapper
+        return df.to_dict(orient="records")
 
 
 class JSONLoader(DataLoader):
-    """Chargeur pour les fichiers JSON.
+    """Chargeur pour les fichiers JSON utilisant pandas.
 
-    Le fichier JSON doit contenir soit une liste de dicts directement,
-    soit un dict avec une clé "data" contenant la liste.
+    Utilise pd.read_json pour la lecture.
     """
 
     def __init__(self, encoding: str = "utf-8") -> None:
@@ -123,23 +121,13 @@ class JSONLoader(DataLoader):
         ------
         FileNotFoundError
             Si le fichier n'existe pas.
-        ValueError
-            Si le contenu n'est ni une liste ni un dict avec clé "data".
         """
         chemin = Path(path)
         if not chemin.exists():
             raise FileNotFoundError(f"Fichier introuvable : {chemin}")
 
-        with open(chemin, encoding=self.encoding) as f:
-            contenu = json.load(f)
-
-        if isinstance(contenu, list):
-            return contenu
-        if isinstance(contenu, dict) and "data" in contenu:
-            return contenu["data"]
-        raise ValueError(
-            "Le JSON doit être une liste ou un dict avec une clé 'data'."
-        )
+        df = pd.read_json(chemin, encoding=self.encoding)
+        return df.to_dict(orient="records")
 
 
 def get_loader(format_fichier: str) -> DataLoader:

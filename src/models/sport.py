@@ -6,7 +6,7 @@ class Sport:
     Un sport est une discipline (football, tennis, échecs, etc.).
     Cette classe sert d'entité de référence pour catégoriser les compétitions.
 
-    Attributes
+    Attributs
     ----------
     id : int
         Identifiant unique du sport.

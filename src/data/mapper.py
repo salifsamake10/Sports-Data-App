@@ -50,7 +50,7 @@ class DataMapper:
           }
         }
 
-    Attributes
+    Attributs
     ----------
     config : dict
         Configuration du dataset.

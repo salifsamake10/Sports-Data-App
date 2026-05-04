@@ -6,7 +6,7 @@ qui peuvent s'appliquer à n'importe quelle compétition.
 
 from __future__ import annotations
 
-from src.models import Competition, MatchStatus, Participant
+from src.models import Competition, MatchStatus
 
 
 class ClassementService:
