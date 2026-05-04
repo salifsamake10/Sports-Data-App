@@ -1,6 +1,6 @@
 # Application de gestion de résultats sportifs
 
-Projet de traitement de données — ENSAI 2025/2026
+Projet de traitement de données - ENSAI 2025/2026
 
 Application Python permettant de charger, analyser et visualiser les résultats
 de compétitions sportives à partir de jeux de données variés. L'application
