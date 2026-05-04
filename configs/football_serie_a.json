@@ -1,0 +1,31 @@
+{
+  "type_mapper": "relationnel",
+  "sport": "Football",
+  "competition": "Italy Serie A",
+  "categorie": "Senior",
+  "genre": "MASCULIN",
+  "type_participant": "equipe",
+  "type_resultat": "buts",
+  "type_classement": "points_3_1_0",
+  "saison": {"debut": 2015, "fin": 2016, "nom": "2015/2016"},
+  "pays_defaut": {"nom": "Italie", "code": "ITA"},
+  "dossier": "datasets/football_european_leagues",
+  "fichier_matchs": "match.csv",
+  "fichier_participants": "team.csv",
+  "mapping_participant": {
+    "id": "team_api_id",
+    "nom": "team_long_name"
+  },
+  "mapping_match": {
+    "date": "date",
+    "participant_1": "home_team_api_id",
+    "participant_2": "away_team_api_id",
+    "score_1": "home_team_goal",
+    "score_2": "away_team_goal",
+    "phase": "stage"
+  },
+  "filtres": {
+    "league_id": "10257",
+    "season": "2015/2016"
+  }
+}
