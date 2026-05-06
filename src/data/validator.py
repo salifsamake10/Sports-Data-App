@@ -86,9 +86,12 @@ class DataValidator:
                 erreurs.append(f"Ligne {index}: champ obligatoire '{champ}' manquant ou vide.")
         # Vérification des types
         for champ, type_attendu in self.schema.get("types", {}).items():
-            if champ in ligne and ligne[champ] is not None:
-                if not self._verifier_type(ligne[champ], type_attendu):
-                    erreurs.append(
+          if (
+                champ in ligne
+                and ligne[champ] is not None
+                and not self._verifier_type(ligne[champ], type_attendu)
+            ):
+              erreurs.append(
                         f"Ligne {index}: champ '{champ}' devrait être de type "
                         f"'{type_attendu}', a la valeur '{ligne[champ]}'."
                     )
