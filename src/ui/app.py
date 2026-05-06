@@ -21,7 +21,6 @@ from src.services import (
     StatistiquesService,
 )
 
-
 # ============================================================
 # Configuration de la page
 # ============================================================
@@ -208,9 +207,7 @@ elif page == "🏅 Classement":
     mode = mode_options[mode_label]
 
     if mode == "points_3_1_0":
-        classement = ClassementService.classement_par_points_3_1_0(
-            competition, type_resultat
-        )
+        classement = ClassementService.classement_par_points_3_1_0(competition, type_resultat)
         df = pd.DataFrame(
             [
                 {
@@ -244,9 +241,7 @@ elif page == "🏅 Classement":
             ]
         )
     else:
-        classement = ClassementService.classement_par_score_total(
-            competition, type_resultat
-        )
+        classement = ClassementService.classement_par_score_total(competition, type_resultat)
         df = pd.DataFrame(
             [
                 {
@@ -314,9 +309,7 @@ elif page == "📈 Statistiques avancées":
     # Statistiques globales
     st.subheader("Récapitulatif")
     rapport = StatistiquesService.rapport_global(competition)
-    df_rapport = pd.DataFrame(
-        [{"Indicateur": k, "Valeur": v} for k, v in rapport.items()]
-    )
+    df_rapport = pd.DataFrame([{"Indicateur": k, "Valeur": v} for k, v in rapport.items()])
     st.table(df_rapport)
 
 
@@ -327,14 +320,10 @@ elif page == "📈 Statistiques avancées":
 elif page == "🔍 Recherche":
     st.subheader("Recherche d'un participant")
 
-    nom_recherche = st.text_input(
-        "Nom (ou partie du nom) :", placeholder="Ex : PSG, Sinner..."
-    )
+    nom_recherche = st.text_input("Nom (ou partie du nom) :", placeholder="Ex : PSG, Sinner...")
 
     if nom_recherche:
-        resultats = RechercheService.chercher_participant_par_nom(
-            competition, nom_recherche
-        )
+        resultats = RechercheService.chercher_participant_par_nom(competition, nom_recherche)
 
         if not resultats:
             st.warning("Aucun participant trouvé.")
@@ -351,16 +340,13 @@ elif page == "🔍 Recherche":
                     type_resultat = config.get("type_resultat", "points")
                     stat = participant.get_stat(type_resultat)
                     if stat:
-                        col2.metric(
-                            type_resultat.capitalize(), f"{stat.valeur:.0f}"
-                        )
+                        col2.metric(type_resultat.capitalize(), f"{stat.valeur:.0f}")
 
                     # Compter victoires
                     victoires = sum(
                         1
                         for m in matchs_p
-                        if m.statut == MatchStatus.TERMINE
-                        and m.get_vainqueur() == participant
+                        if m.statut == MatchStatus.TERMINE and m.get_vainqueur() == participant
                     )
                     col3.metric("Victoires", victoires)
 
@@ -422,9 +408,7 @@ elif page == "⚖️ Comparaison":
                 st.markdown(f"### {p.nom}")
                 matchs = competition.get_matchs_participant(p)
                 victoires = sum(
-                    1
-                    for m in matchs
-                    if m.statut == MatchStatus.TERMINE and m.get_vainqueur() == p
+                    1 for m in matchs if m.statut == MatchStatus.TERMINE and m.get_vainqueur() == p
                 )
                 stat = p.get_stat(type_resultat)
                 valeur = stat.valeur if stat else 0
@@ -476,9 +460,7 @@ elif page == "📋 Liste des matchs":
     col1, col2 = st.columns(2)
     with col1:
         phases = sorted({m.phase for m in competition.matchs if m.phase})
-        phase_filtre = st.selectbox(
-            "Filtrer par phase", options=["Toutes"] + phases
-        )
+        phase_filtre = st.selectbox("Filtrer par phase", options=["Toutes"] + phases)
     with col2:
         nb_max = st.number_input(
             "Nombre maximum à afficher", min_value=10, max_value=2000, value=100

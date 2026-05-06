@@ -155,7 +155,6 @@ def get_loader(format_fichier: str) -> DataLoader:
     }
     if format_fichier not in loaders:
         raise ValueError(
-            f"Format '{format_fichier}' non supporté. "
-            f"Formats disponibles : {list(loaders.keys())}"
+            f"Format '{format_fichier}' non supporté. Formats disponibles : {list(loaders.keys())}"
         )
     return loaders[format_fichier]()

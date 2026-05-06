@@ -1,13 +1,12 @@
 """Module définissant la classe Joueur."""
 
-
 from datetime import date
 
 from .enums import Genre
 from .participant import Participant
-from .statistique import Statistique
 from .pays import Pays
 from .resultat import Resultat
+from .statistique import Statistique
 
 
 class Joueur(Participant):
@@ -78,10 +77,7 @@ class Joueur(Participant):
         self.genre = genre
 
     def __repr__(self) -> str:
-        return (
-            f"Joueur(id={self.id}, nom='{self.prenom} {self.nom}', "
-            f"genre={self.genre.value})"
-        )
+        return f"Joueur(id={self.id}, nom='{self.prenom} {self.nom}', genre={self.genre.value})"
 
     def get_age(self) -> int:
         """Calcule et retourne l'âge du joueur en années.

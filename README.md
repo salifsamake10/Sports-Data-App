@@ -1,46 +1,39 @@
-# Application de gestion de résultats sportifs
+# Sport App — Gestion de résultats sportifs
 
-Projet de traitement de données - ENSAI 2025/2026
+Projet de traitement de données — ENSAI 2025/2026
 
-Application Python permettant de charger, analyser et visualiser les résultats
-de compétitions sportives à partir de jeux de données variés. L'application
-est conçue pour être **générique** : elle fonctionne avec n'importe quel sport
-(football, tennis, basketball, échecs, etc.) sans modifier le code, simplement
-en changeant le fichier de configuration.
+Application Python permettant de charger, analyser et visualiser les
+résultats de compétitions sportives à partir de jeux de données variés.
+L'application est conçue pour être **générique** : elle fonctionne avec
+n'importe quel sport (football, tennis, basketball, échecs, etc.) sans
+modifier le code, simplement en changeant le fichier de configuration.
 
-## Fonctionnalités
+## Sports et compétitions supportés
 
-- Chargement de données brutes au format CSV depuis différents datasets
-- Modélisation orientée objet : `Sport`, `Saison`, `Pays`, `Competition`, `Match`,
-  `Participant` (Joueur, Équipe), `Resultat`, `Statistique`
-- Calcul automatique de classements selon des règles configurables
-  (système 3-1-0 pour le foot, victoires pour le tennis, score total pour les échecs)
-- Statistiques agrégées : meilleur attaque, meilleure défense, top 5, taux de match nul
-- Recherche multi-critères (par phase, par dates, confrontations directes)
-- Sauvegarde des résultats au format JSON
+L'application a été testée sur **8 compétitions** issues de **4 sports** très différents :
 
-## Sports supportés
-
-L'application a été testée et validée sur 4 sports avec des structures de données très différentes :
-
-| Sport | Source | Type | Exemple de classement |
+| Sport | Compétition | Type | Participants |
 |---|---|---|---|
-| Football européen | `football_european_leagues` | Collectif | Ligue 1 2015/2016, PSG champion (96 pts) |
-| Tennis ATP | `tennis` | Individuel | ATP Tour 2024, Sinner n°1 (74 victoires) |
-| Basketball NBA | `Basketball` | Collectif | NBA 2022-2023, Boston en tête |
-| Échecs | `chess` | Individuel | Tournoi 2024, Esipenko 1er |
+| Football | France Ligue 1 2015/2016 | Collectif | 20 équipes |
+| Football | England Premier League | Collectif | 20 équipes |
+| Football | Germany Bundesliga | Collectif | 18 équipes |
+| Football | Spain La Liga | Collectif | 20 équipes |
+| Football | Italy Serie A | Collectif | 20 équipes |
+| Tennis | ATP Tour 2024 | Individuel | 443 joueurs |
+| Basketball | NBA Regular Season 2022-2023 | Collectif | 30 équipes |
+| Échecs | Tournoi 2024 | Individuel | 203 joueurs |
 
 ## Prérequis
 
-- **Python 3.11+**
-- Système d'exploitation : Windows / Mac / Linux
+- **Python 3.11 ou supérieur**
+- Système : Windows / Mac / Linux
 
 ## Installation
 
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <url-du-depot>
+git clone https://github.com/<utilisateur>/Projet_Info.git
 cd Projet_Info
 ```
 
@@ -66,21 +59,26 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Lancement de l'application
-
-L'application se lance avec une configuration JSON qui décrit le dataset
-à charger.
+Pour les outils de développement (tests, linter) :
 
 ```bash
-python -m src.main --config configs/football_european_leagues.json
+pip install -e ".[dev]"
+```
+
+## Lancement de l'application
+
+### Mode CLI (ligne de commande)
+
+L'application se lance avec une configuration JSON :
+
+```bash
+python -m src.main --config configs/football_ligue1.json
 python -m src.main --config configs/tennis.json
 python -m src.main --config configs/basketball.json
 python -m src.main --config configs/chess.json
 ```
 
-### Actions disponibles
-
-L'option `--action` permet de cibler une opération précise :
+Actions disponibles avec `--action` :
 
 ```bash
 python -m src.main --config configs/tennis.json --action classement
@@ -89,69 +87,119 @@ python -m src.main --config configs/tennis.json --action sauvegarder
 python -m src.main --config configs/tennis.json --action all       # par défaut
 ```
 
+### Mode GUI (interface web Streamlit)
+
+```bash
+python -m streamlit run src/ui/app.py
+```
+
+L'application s'ouvre automatiquement à `http://localhost:8501`.
+Elle propose :
+
+- Choix de la compétition (menu déroulant)
+- Vue d'ensemble avec indicateurs clés
+- Classement multi-modes (3-1-0, victoires, score total)
+- Statistiques avancées avec graphiques
+- Recherche d'un participant
+- Comparaison de deux participants
+- Liste filtrable des matchs
+
 ## Architecture du projet
 
 ```
 Projet_Info/
 ├── src/
-│   ├── models/          Classes du domaine (Match, Joueur, Equipe…)
-│   ├── data/            Chargement, nettoyage, mapping, sauvegarde
-│   ├── services/        Logique métier (classement, statistiques, recherche)
-│   └── main.py          Point d'entrée CLI
-├── configs/             Fichiers JSON de configuration par sport
-├── datasets/            Données brutes
-├── tests/               Tests unitaires pytest
-├── output/              Fichiers JSON sauvegardés (créé automatiquement)
+│   ├── models/          # Classes du domaine (Match, Joueur, Equipe…)
+│   ├── data/            # Chargement, nettoyage, mapping, sauvegarde
+│   ├── services/        # Logique métier (classement, statistiques)
+│   ├── ui/              # Interface Streamlit
+│   └── main.py          # Point d'entrée CLI
+├── configs/             # Fichiers JSON de configuration par compétition
+├── datasets/            # Données brutes (CSV)
+├── tests/               # Tests unitaires pytest
+├── output/              # Sauvegardes JSON (créé automatiquement)
 ├── requirements.txt
+├── pyproject.toml
 ├── LICENSE
 └── README.md
 ```
 
 ## Tests
 
-Les tests utilisent **pytest**. Pour les lancer :
+Le code est testé avec **pytest**.
+
+### Lancer les tests
 
 ```bash
-pytest tests/ -v
+pytest
 ```
 
-Pour mesurer la couverture de code :
+### Mesurer la couverture de code
 
 ```bash
-pip install pytest-cov
-pytest tests/ --cov=src --cov-report=term-missing
+pytest --cov=src --cov-report=term-missing
 ```
 
-## Style de code
+Génère également un rapport HTML détaillé :
 
-- **Style des docstrings** : NumPy
-- **Linter recommandé** : Ruff
-  ```bash
-  pip install ruff
-  ruff check src/ tests/
-  ```
-- **Formatter recommandé** (optionnel) : Ruff format
-  ```bash
-  ruff format src/ tests/
-  ```
+```bash
+pytest --cov=src --cov-report=html
+# Ouvrir htmlcov/index.html dans un navigateur
+```
 
-## Ajouter un nouveau sport
+## Qualité du code
 
-L'un des objectifs principaux est la **réutilisabilité**. Pour ajouter un
-nouveau sport, **aucune modification du code Python n'est requise** : il
-suffit de créer un nouveau fichier JSON dans `configs/`.
+### Style des docstrings
 
-Exemple pour ajouter le volleyball :
+**Style NumPy**, appliqué uniformément sur toutes les classes, méthodes
+et fonctions.
 
-1. Placer les données CSV dans `datasets/volleyball/`
+### Linter et formatter — Ruff
+
+[Ruff](https://docs.astral.sh/ruff/) est utilisé à la fois comme linter
+et formatter. La configuration se trouve dans `pyproject.toml`.
+
+**Vérifier le style** :
+
+```bash
+ruff check src/ tests/
+```
+
+**Formater automatiquement** :
+
+```bash
+ruff format src/ tests/
+```
+
+### Type hints
+
+Le code utilise des annotations de type Python (`from __future__ import annotations`)
+sur toutes les fonctions et méthodes publiques.
+
+## Ajouter une nouvelle compétition
+
+L'un des objectifs principaux est la **généricité**. Pour ajouter une
+nouvelle compétition (nouveau sport ou nouvelle ligue d'un sport
+existant), **aucune modification du code Python n'est nécessaire** : il
+suffit de créer un fichier JSON dans `configs/`.
+
+Exemple — ajouter le volleyball :
+
+1. Placer les CSV dans `datasets/volleyball/`
 2. Créer `configs/volleyball.json` en s'inspirant des configs existantes
 3. Lancer : `python -m src.main --config configs/volleyball.json`
 
+## Sauvegarde des données
+
+L'application peut sauvegarder l'état complet d'une compétition au
+format JSON, dans `output/`. La sauvegarde inclut tous les participants,
+matchs, résultats et statistiques.
+
 ## Auteurs
 
-Salif SAMAKE et Moussa
+Projet réalisé dans le cadre du cours « Projet de traitement de données »
+de l'ENSAI, encadré par Johann Faouzi.
 
 ## Licence
 
-Ce projet est distribué sous licence MIT — voir le fichier `LICENSE` pour
-plus de détails.
+Distribué sous licence MIT — voir `LICENSE` pour les détails.

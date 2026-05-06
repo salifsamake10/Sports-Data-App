@@ -22,7 +22,7 @@ from src.models import (
     Resultat,
     Saison,
     Sport,
-    Statistique,
+    # Statistique,
 )
 
 from .cleaner import DataCleaner

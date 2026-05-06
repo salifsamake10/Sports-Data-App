@@ -80,7 +80,7 @@ class Statistique:
         return {"nom": self.nom, "valeur": self.valeur, "unite": self.unite}
 
     @classmethod
-    def from_dict(cls, data: dict) -> Statistique:
+    def from_dict(cls, data: dict) -> "Statistique":
         """Crée une Statistique à partir d'un dictionnaire."""
         return cls(
             nom=data["nom"],

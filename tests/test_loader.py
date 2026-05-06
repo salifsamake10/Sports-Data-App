@@ -37,9 +37,7 @@ class TestCSVLoader:
 class TestJSONLoader:
     def test_charger_liste_directe(self, tmp_path):
         fichier = tmp_path / "test.json"
-        fichier.write_text(
-            json.dumps([{"nom": "PSG"}, {"nom": "OM"}]), encoding="utf-8"
-        )
+        fichier.write_text(json.dumps([{"nom": "PSG"}, {"nom": "OM"}]), encoding="utf-8")
 
         loader = JSONLoader()
         donnees = loader.load(fichier)

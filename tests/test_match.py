@@ -27,20 +27,14 @@ class TestMatch:
         match_psg_om.ajouter_resultat(resultat)
         assert len(match_psg_om.resultats) == 1
 
-    def test_ajouter_resultat_participant_externe_leve_erreur(
-        self, match_psg_om, joueur_messi
-    ):
+    def test_ajouter_resultat_participant_externe_leve_erreur(self, match_psg_om, joueur_messi):
         resultat = Resultat(id=1, valeur=1, type="buts", participant=joueur_messi)
         with pytest.raises(ValueError, match="ne fait pas partie"):
             match_psg_om.ajouter_resultat(resultat)
 
     def test_get_score_participant(self, match_psg_om, equipe_psg):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=2, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=1, type="buts", participant=equipe_psg)
-        )
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=2, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=1, type="buts", participant=equipe_psg))
         assert match_psg_om.get_score_participant(equipe_psg) == 3.0
 
     def test_get_vainqueur_match_planifie(self, match_psg_om):
@@ -48,22 +42,14 @@ class TestMatch:
         assert match_psg_om.get_vainqueur() is None
 
     def test_get_vainqueur_match_termine(self, match_psg_om, equipe_psg, equipe_om):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=3, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=1, type="buts", participant=equipe_om)
-        )
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=3, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=1, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         assert match_psg_om.get_vainqueur() == equipe_psg
 
     def test_match_nul(self, match_psg_om, equipe_psg, equipe_om):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=2, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=2, type="buts", participant=equipe_om)
-        )
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=2, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=2, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         assert match_psg_om.est_nul() is True
         assert match_psg_om.get_vainqueur() is None

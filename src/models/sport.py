@@ -1,5 +1,6 @@
 """Module définissant la classe Sport."""
 
+
 class Sport:
     """Représente un sport.
 

@@ -47,20 +47,14 @@ class TestStatistiquesService:
 
     def test_matchs_avec_plus_de(self, competition_complete):
         # Le match a 5 buts au total → > 4
-        matchs = StatistiquesService.matchs_avec_plus_de(
-            competition_complete, seuil=4
-        )
+        matchs = StatistiquesService.matchs_avec_plus_de(competition_complete, seuil=4)
         assert len(matchs) == 1
 
     def test_matchs_avec_plus_de_seuil_non_atteint(self, competition_complete):
-        matchs = StatistiquesService.matchs_avec_plus_de(
-            competition_complete, seuil=10
-        )
+        matchs = StatistiquesService.matchs_avec_plus_de(competition_complete, seuil=10)
         assert len(matchs) == 0
 
-    def test_taux_match_nul(
-        self, competition_ligue1, equipe_psg, equipe_om
-    ):
+    def test_taux_match_nul(self, competition_ligue1, equipe_psg, equipe_om):
         m = Match(id=1, date=date(2024, 1, 1), participants=[equipe_psg, equipe_om])
         m.ajouter_resultat(Resultat(1, 1, "buts", equipe_psg))
         m.ajouter_resultat(Resultat(2, 1, "buts", equipe_om))

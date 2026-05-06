@@ -37,9 +37,7 @@ class RechercheService:
         return [p for p in competition.participants if nom_lower in p.nom.lower()]
 
     @staticmethod
-    def matchs_entre_dates(
-        competition: Competition, debut: date, fin: date
-    ) -> list[Match]:
+    def matchs_entre_dates(competition: Competition, debut: date, fin: date) -> list[Match]:
         """Retourne les matchs joués entre deux dates.
 
         Parameters
@@ -78,9 +76,7 @@ class RechercheService:
         return [m for m in competition.matchs if m.phase.lower() == phase_lower]
 
     @staticmethod
-    def matchs_par_statut(
-        competition: Competition, statut: MatchStatus
-    ) -> list[Match]:
+    def matchs_par_statut(competition: Competition, statut: MatchStatus) -> list[Match]:
         """Retourne les matchs ayant un statut donné."""
         return [m for m in competition.matchs if m.statut == statut]
 

@@ -13,10 +13,8 @@ from src.models import (
     Match,
     MatchStatus,
     Pays,
-    Resultat,
     Saison,
     Sport,
-    Statistique,
 )
 
 

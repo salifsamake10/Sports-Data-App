@@ -83,9 +83,7 @@ class DataValidator:
         # Champs obligatoires
         for champ in self.schema.get("champs_obligatoires", []):
             if champ not in ligne or ligne[champ] in (None, ""):
-                erreurs.append(
-                    f"Ligne {index}: champ obligatoire '{champ}' manquant ou vide."
-                )
+                erreurs.append(f"Ligne {index}: champ obligatoire '{champ}' manquant ou vide.")
         # Vérification des types
         for champ, type_attendu in self.schema.get("types", {}).items():
             if champ in ligne and ligne[champ] is not None:

@@ -1,6 +1,7 @@
 """Module définissant la classe Coach."""
 
 from datetime import date
+
 from .pays import Pays
 
 

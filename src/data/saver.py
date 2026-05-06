@@ -15,9 +15,7 @@ class DataSaver:
         self.encoding = encoding
         self.indent = indent
 
-    def sauvegarder_competition(
-        self, competition: Competition, path: str | Path
-    ) -> None:
+    def sauvegarder_competition(self, competition: Competition, path: str | Path) -> None:
         """Sauvegarde une compétition au format JSON."""
         chemin = Path(path)
         chemin.parent.mkdir(parents=True, exist_ok=True)

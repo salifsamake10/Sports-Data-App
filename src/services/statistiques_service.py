@@ -74,9 +74,7 @@ class StatistiquesService:
         return min(encaisses, key=encaisses.get)
 
     @staticmethod
-    def moyenne_par_match(
-        competition: Competition, type_resultat: str = "buts"
-    ) -> float:
+    def moyenne_par_match(competition: Competition, type_resultat: str = "buts") -> float:
         """Calcule la moyenne du type de résultat par match.
 
         Parameters
@@ -91,16 +89,11 @@ class StatistiquesService:
         float
             Moyenne sur tous les matchs terminés.
         """
-        matchs_termines = [
-            m for m in competition.matchs if m.statut == MatchStatus.TERMINE
-        ]
+        matchs_termines = [m for m in competition.matchs if m.statut == MatchStatus.TERMINE]
         if not matchs_termines:
             return 0.0
         total = sum(
-            r.valeur
-            for m in matchs_termines
-            for r in m.resultats
-            if r.type == type_resultat
+            r.valeur for m in matchs_termines for r in m.resultats if r.type == type_resultat
         )
         return total / len(matchs_termines)
 
@@ -162,9 +155,7 @@ class StatistiquesService:
         for match in competition.matchs:
             if match.statut != MatchStatus.TERMINE:
                 continue
-            total = sum(
-                r.valeur for r in match.resultats if r.type == type_resultat
-            )
+            total = sum(r.valeur for r in match.resultats if r.type == type_resultat)
             if total > seuil:
                 resultat.append(match)
         return resultat
@@ -183,9 +174,7 @@ class StatistiquesService:
         float
             Pourcentage entre 0 et 1.
         """
-        matchs_termines = [
-            m for m in competition.matchs if m.statut == MatchStatus.TERMINE
-        ]
+        matchs_termines = [m for m in competition.matchs if m.statut == MatchStatus.TERMINE]
         if not matchs_termines:
             return 0.0
         nuls = sum(1 for m in matchs_termines if m.est_nul())
@@ -213,10 +202,6 @@ class StatistiquesService:
             "nb_matchs_termines": sum(
                 1 for m in competition.matchs if m.statut == MatchStatus.TERMINE
             ),
-            "moyenne_buts_par_match": round(
-                StatistiquesService.moyenne_par_match(competition), 2
-            ),
-            "taux_match_nul": round(
-                StatistiquesService.taux_match_nul(competition) * 100, 1
-            ),
+            "moyenne_buts_par_match": round(StatistiquesService.moyenne_par_match(competition), 2),
+            "taux_match_nul": round(StatistiquesService.taux_match_nul(competition) * 100, 1),
         }

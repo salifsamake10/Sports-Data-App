@@ -211,10 +211,7 @@ class ClassementService:
                     f"{ligne['defaites']:>3} {ligne['difference']:>+5.0f}"
                 )
         elif "victoires" in premiere:
-            lignes.append(
-                f"{'#':>3} {'Participant':<20} {'V':>3} "
-                f"{'D':>3} {'J':>3} {'Ratio':>6}"
-            )
+            lignes.append(f"{'#':>3} {'Participant':<20} {'V':>3} {'D':>3} {'J':>3} {'Ratio':>6}")
             lignes.append("-" * 45)
             for i, ligne in enumerate(classement[:limite], 1):
                 lignes.append(
@@ -226,7 +223,5 @@ class ClassementService:
             lignes.append(f"{'#':>3} {'Participant':<20} {'Total':>8}")
             lignes.append("-" * 35)
             for i, ligne in enumerate(classement[:limite], 1):
-                lignes.append(
-                    f"{i:>3} {ligne['participant'].nom:<20} {ligne['total']:>8.1f}"
-                )
+                lignes.append(f"{i:>3} {ligne['participant'].nom:<20} {ligne['total']:>8.1f}")
         return "\n".join(lignes)

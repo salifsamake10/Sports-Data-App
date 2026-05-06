@@ -4,7 +4,6 @@ import pytest
 
 from src.data import DataValidator, ValidationError
 
-
 SCHEMA = {
     "champs_obligatoires": ["nom", "score"],
     "types": {"score": "int"},

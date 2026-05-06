@@ -1,16 +1,13 @@
 """Module définissant la classe Equipe."""
 
-
 from datetime import date
 
-
 from .enums import Genre
-from .participant import Participant
-from .statistique import Statistique
-
 from .joueur import Joueur
+from .participant import Participant
 from .pays import Pays
 from .resultat import Resultat
+from .statistique import Statistique
 
 
 class Equipe(Participant):
@@ -132,8 +129,6 @@ class Equipe(Participant):
             "pays": self.pays.to_dict(),
             "genre": self.genre.value,
             "joueurs": [j.to_dict() for j in self.joueurs],
-            "date_creation": (
-                self.date_creation.isoformat() if self.date_creation else None
-            ),
+            "date_creation": (self.date_creation.isoformat() if self.date_creation else None),
             "stats": [s.to_dict() for s in self.stats],
         }

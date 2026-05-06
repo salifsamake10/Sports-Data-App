@@ -21,9 +21,7 @@ class TestCompetition:
         competition_ligue1.ajouter_participant(equipe_psg)
         assert equipe_psg in competition_ligue1.participants
 
-    def test_ajouter_participant_doublon_leve_erreur(
-        self, competition_ligue1, equipe_psg
-    ):
+    def test_ajouter_participant_doublon_leve_erreur(self, competition_ligue1, equipe_psg):
         competition_ligue1.ajouter_participant(equipe_psg)
         with pytest.raises(ValueError, match="déjà inscrit"):
             competition_ligue1.ajouter_participant(equipe_psg)
@@ -37,9 +35,7 @@ class TestCompetition:
         assert equipe_om in competition_ligue1.participants
         assert match_psg_om in competition_ligue1.matchs
 
-    def test_get_matchs_participant(
-        self, competition_ligue1, match_psg_om, equipe_psg
-    ):
+    def test_get_matchs_participant(self, competition_ligue1, match_psg_om, equipe_psg):
         competition_ligue1.ajouter_match(match_psg_om)
         matchs = competition_ligue1.get_matchs_participant(equipe_psg)
         assert match_psg_om in matchs
@@ -47,12 +43,8 @@ class TestCompetition:
     def test_mettre_a_jour_classement(
         self, competition_ligue1, match_psg_om, equipe_psg, equipe_om
     ):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=3, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=1, type="buts", participant=equipe_om)
-        )
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=3, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=1, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         competition_ligue1.ajouter_match(match_psg_om)
 
@@ -61,15 +53,9 @@ class TestCompetition:
         assert equipe_psg.get_stat("buts").valeur == 3.0
         assert equipe_om.get_stat("buts").valeur == 1.0
 
-    def test_get_classement(
-        self, competition_ligue1, match_psg_om, equipe_psg, equipe_om
-    ):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=3, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=1, type="buts", participant=equipe_om)
-        )
+    def test_get_classement(self, competition_ligue1, match_psg_om, equipe_psg, equipe_om):
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=3, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=1, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         competition_ligue1.ajouter_match(match_psg_om)
         competition_ligue1.mettre_a_jour_classement()
@@ -78,15 +64,9 @@ class TestCompetition:
         assert classement[0] == equipe_psg
         assert classement[1] == equipe_om
 
-    def test_get_statistiques(
-        self, competition_ligue1, match_psg_om, equipe_psg, equipe_om
-    ):
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=2, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=2, type="buts", participant=equipe_om)
-        )
+    def test_get_statistiques(self, competition_ligue1, match_psg_om, equipe_psg, equipe_om):
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=2, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=2, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         competition_ligue1.ajouter_match(match_psg_om)
 

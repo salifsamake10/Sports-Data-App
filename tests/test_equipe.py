@@ -2,7 +2,7 @@
 
 import pytest
 
-from src.models import Equipe, Genre, Resultat
+from src.models import Genre, Resultat
 
 
 class TestEquipe:

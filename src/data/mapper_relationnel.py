@@ -72,9 +72,7 @@ class RelationalMapper:
         competition = self._creer_competition()
 
         # 3. Charger les matchs avec pandas et appliquer les filtres
-        df_matchs = self._charger_csv(
-            f"{dossier}/{self.config['fichier_matchs']}"
-        )
+        df_matchs = self._charger_csv(f"{dossier}/{self.config['fichier_matchs']}")
         nb_brut = len(df_matchs)
         df_matchs = self._appliquer_filtres(df_matchs)
         print(f"  → {nb_brut} matchs bruts, {len(df_matchs)} après filtrage")

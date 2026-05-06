@@ -13,12 +13,8 @@ class TestDataSaver:
     ):
         from src.models import MatchStatus, Resultat
 
-        match_psg_om.ajouter_resultat(
-            Resultat(id=1, valeur=2, type="buts", participant=equipe_psg)
-        )
-        match_psg_om.ajouter_resultat(
-            Resultat(id=2, valeur=0, type="buts", participant=equipe_om)
-        )
+        match_psg_om.ajouter_resultat(Resultat(id=1, valeur=2, type="buts", participant=equipe_psg))
+        match_psg_om.ajouter_resultat(Resultat(id=2, valeur=0, type="buts", participant=equipe_om))
         match_psg_om.statut = MatchStatus.TERMINE
         competition_ligue1.ajouter_match(match_psg_om)
 

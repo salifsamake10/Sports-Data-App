@@ -1,6 +1,7 @@
 """Module définissant la classe Match."""
 
 from datetime import date as date_type
+
 from .enums import MatchStatus
 from .participant import Participant
 from .resultat import Resultat
@@ -103,8 +104,7 @@ class Match:
         """
         if resultat.participant not in self.participants:
             raise ValueError(
-                f"Le participant {resultat.participant.nom} "
-                f"ne fait pas partie de ce match."
+                f"Le participant {resultat.participant.nom} ne fait pas partie de ce match."
             )
         self.resultats.append(resultat)
 

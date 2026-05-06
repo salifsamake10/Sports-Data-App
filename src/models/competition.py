@@ -1,6 +1,7 @@
 """Module définissant la classe Competition."""
-from .match import Match
+
 from .enums import Genre
+from .match import Match
 from .participant import Participant
 from .saison import Saison
 from .sport import Sport
@@ -40,7 +41,6 @@ class Competition:
         saison: Saison,
         categorie: str = "Senior",
         genre: Genre = Genre.MASCULIN,
-        
     ) -> None:
         """Initialise une compétition.
 
@@ -105,9 +105,7 @@ class Competition:
             Si le participant est déjà inscrit.
         """
         if participant in self.participants:
-            raise ValueError(
-                f"Le participant {participant.nom} est déjà inscrit."
-            )
+            raise ValueError(f"Le participant {participant.nom} est déjà inscrit.")
         self.participants.append(participant)
 
     def get_participants(self) -> list[Participant]:
@@ -175,6 +173,7 @@ class Competition:
         list[Participant]
             Participants triés du meilleur au moins bon selon le critère.
         """
+
         def cle_tri(p: Participant) -> float:
             stat = p.get_stat(critere)
             return stat.valeur if stat else 0.0
