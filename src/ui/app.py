@@ -27,7 +27,7 @@ from src.services import (
 
 st.set_page_config(
     page_title="Sport App — Résultats Sportifs",
-    page_icon="🏆",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -73,7 +73,7 @@ def get_config(chemin_config: str) -> dict:
 # Sidebar — sélection du sport
 # ============================================================
 
-st.sidebar.title("🏆 Sport App")
+st.sidebar.title(" Sport App")
 st.sidebar.markdown("---")
 
 configs = lister_configs()
@@ -99,12 +99,12 @@ st.sidebar.success(f"✓ {len(competition.participants)} participants")
 page = st.sidebar.radio(
     "Navigation",
     options=[
-        "📊 Vue d'ensemble",
-        "🏅 Classement",
-        "📈 Statistiques avancées",
-        "🔍 Recherche",
-        "⚖️ Comparaison",
-        "📋 Liste des matchs",
+        "Vue d'ensemble",
+        "Classement",
+        "Statistiques avancées",
+        "Recherche",
+        "Comparaison",
+        "Liste des matchs",
     ],
 )
 
@@ -113,7 +113,7 @@ page = st.sidebar.radio(
 # En-tête
 # ============================================================
 
-st.title(f"🏆 {competition.nom}")
+st.title(f"{competition.nom}")
 st.markdown(
     f"**Sport :** {competition.sport.nom}  |  "
     f"**Saison :** {competition.saison.nom}  |  "
@@ -127,7 +127,7 @@ st.markdown("---")
 # Page : Vue d'ensemble
 # ============================================================
 
-if page == "📊 Vue d'ensemble":
+if page == "Vue d'ensemble":
     rapport = StatistiquesService.rapport_global(competition)
 
     col1, col2, col3, col4 = st.columns(4)
@@ -145,7 +145,7 @@ if page == "📊 Vue d'ensemble":
     col_g, col_d = st.columns(2)
 
     with col_g:
-        st.subheader("🥇 Meilleure attaque")
+        st.subheader("Meilleure attaque")
         type_resultat = config.get("type_resultat", "points")
         meilleur = StatistiquesService.meilleur_attaque(competition, type_resultat)
         if meilleur:
@@ -154,7 +154,7 @@ if page == "📊 Vue d'ensemble":
             st.success(f"**{meilleur.nom}** — {valeur:.0f} {type_resultat}")
 
     with col_d:
-        st.subheader("🛡️ Meilleure défense")
+        st.subheader("Meilleure défense")
         meilleure_def = StatistiquesService.meilleure_defense(
             competition, config.get("type_resultat", "points")
         )
@@ -164,7 +164,7 @@ if page == "📊 Vue d'ensemble":
     st.markdown("---")
 
     # Graphique : Top 10
-    st.subheader(f"📊 Top 10 — {config.get('type_resultat', 'points')}")
+    st.subheader(f"Top 10 — {config.get('type_resultat', 'points')}")
     top = StatistiquesService.top_n_buteurs(
         competition, n=10, type_resultat=config.get("type_resultat", "points")
     )
@@ -184,7 +184,7 @@ if page == "📊 Vue d'ensemble":
 # Page : Classement
 # ============================================================
 
-elif page == "🏅 Classement":
+elif page == "Classement":
     st.subheader("Classement complet")
 
     type_classement = config.get("type_classement", "points_3_1_0")
@@ -264,7 +264,7 @@ elif page == "🏅 Classement":
 # Page : Statistiques avancées
 # ============================================================
 
-elif page == "📈 Statistiques avancées":
+elif page == "Statistiques avancées":
     type_resultat = config.get("type_resultat", "points")
 
     st.subheader("Indicateurs de performance")
@@ -390,7 +390,7 @@ elif page == "🔍 Recherche":
 # Page : Comparaison
 # ============================================================
 
-elif page == "⚖️ Comparaison":
+elif page == "Comparaison":
     st.subheader("Comparer deux participants")
 
     noms_participants = sorted([p.nom for p in competition.participants])
@@ -434,7 +434,7 @@ elif page == "⚖️ Comparaison":
         st.markdown("---")
 
         # Confrontations directes
-        st.subheader("🆚 Confrontations directes")
+        st.subheader("Confrontations directes")
         confrontations = RechercheService.confrontation_directe(competition, p_a, p_b)
 
         if not confrontations:
@@ -468,7 +468,7 @@ elif page == "⚖️ Comparaison":
 # Page : Liste des matchs
 # ============================================================
 
-elif page == "📋 Liste des matchs":
+elif page == "Liste des matchs":
     st.subheader("Tous les matchs")
 
     # Filtres
