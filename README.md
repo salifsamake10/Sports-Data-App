@@ -1,16 +1,46 @@
-# Sport App - Gestion de résultats sportifs
+# Sport App — Gestion et analyse de résultats sportifs
 
 Projet de traitement de données — ENSAI 2025/2026
 
-Application Python permettant de charger, analyser et visualiser les
-résultats de compétitions sportives à partir de jeux de données variés.
-L'application est conçue pour être **générique** : elle fonctionne avec
-n'importe quel sport (football, tennis, basketball, échecs, etc.) sans
-modifier le code, simplement en changeant le fichier de configuration.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Tests](https://img.shields.io/badge/tests-141-success)
+![Coverage](https://img.shields.io/badge/coverage-74.5%25-green)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-## Sports et compétitions supportés
+Application Python permettant de charger, structurer, analyser et visualiser des résultats de compétitions sportives à partir de jeux de données variés.
 
-L'application a été testée sur **8 compétitions** issues de **4 sports** très différents :
+L’application a été conçue pour être **générique et extensible** : elle peut être adaptée à différents sports (football, tennis, basket-ball, échecs, etc.) sans modification du code métier, uniquement via des fichiers de configuration JSON.
+
+---
+
+# Fonctionnalités principales
+
+- Chargement automatique de datasets sportifs hétérogènes
+- Nettoyage et validation des données
+- Structuration relationnelle des données sportives
+- Calcul de classements selon plusieurs stratégies
+- Génération de statistiques sportives
+- Recherche et comparaison de participants
+- Interface web interactive avec Streamlit
+- Sauvegarde des compétitions au format JSON
+- Configuration générique par fichiers JSON
+
+---
+
+# Chiffres clés
+
+- **30 000+ matchs analysés**
+- **8 compétitions prises en charge**
+- **4 sports différents**
+- **141 tests unitaires**
+- **74.5 % de couverture de code**
+- Traitement de datasets relationnels multi-fichiers
+
+---
+
+# Sports et compétitions supportés
+
+L’application a été testée sur **8 compétitions** issues de **4 sports** différents.
 
 | Sport | Compétition | Type | Participants |
 |---|---|---|---|
@@ -20,24 +50,43 @@ L'application a été testée sur **8 compétitions** issues de **4 sports** tr�
 | Football | Spain La Liga | Collectif | 20 équipes |
 | Football | Italy Serie A | Collectif | 20 équipes |
 | Tennis | ATP Tour 2024 | Individuel | 443 joueurs |
-| Basketball | NBA Regular Season 2022-2023 | Collectif | 30 équipes |
+| Basket-ball | NBA Regular Season 2022–2023 | Collectif | 30 équipes |
 | Échecs | Tournoi 2024 | Individuel | 203 joueurs |
 
-## Prérequis
+---
 
-- **Python 3.11.7** (version exacte utilisée pour le développement)
-- Système : Windows / macOS / Linux
+# Aperçu de l’interface
 
-## Installation
+## Vue d’ensemble
 
-### 1. Cloner le dépôt
+![Vue générale](image/vue_ensemble.png)
+
+## Classement
+
+![Classement](image/interface_classement.png)
+
+## Statistiques avancées
+
+![Statistiques](image/stat_avance.png)
+
+---
+
+# Prérequis
+
+- **Python 3.11.7**
+- Windows / macOS / Linux
+
+---
+
+# Installation
+
+## 1. Cloner le dépôt
 
 ```bash
 git clone https://github.com/<utilisateur>/Projet_Info.git
 cd Projet_Info
 ```
-
-### 2. Créer et activer un environnement virtuel
+## 2. Créer et activer un environnement virtuel
 
 **Windows (PowerShell)** :
 
@@ -87,7 +136,7 @@ python -m src.main --config configs/tennis.json --action sauvegarder
 python -m src.main --config configs/tennis.json --action all       # par défaut
 ```
 
-### Mode GUI (interface web Streamlit)
+### Interface web Streamlit
 
 ```bash
 python -m streamlit run src/ui/app.py
@@ -140,11 +189,11 @@ pytest
 pytest --cov=src --cov-report=term-missing
 ```
 
-Génère également un rapport HTML détaillé :
+
 
 ```bash
 pytest --cov=src --cov-report=html
-# Ouvrir htmlcov/index.html dans un navigateur
+
 ```
 
 ## Qualité du code
@@ -183,7 +232,7 @@ nouvelle compétition (nouveau sport ou nouvelle ligue d'un sport
 existant), **aucune modification du code Python n'est nécessaire** : il
 suffit de créer un fichier JSON dans `configs/`.
 
-Exemple — ajouter le volleyball :
+Exemple - ajouter le volleyball :
 
 1. Placer les CSV dans `datasets/volleyball/`
 2. Créer `configs/volleyball.json` en s'inspirant des configs existantes
@@ -191,15 +240,24 @@ Exemple — ajouter le volleyball :
 
 ## Sauvegarde des données
 
-L'application peut sauvegarder l'état complet d'une compétition au
-format JSON, dans `output/`. La sauvegarde inclut tous les participants,
-matchs, résultats et statistiques.
+L’application peut sauvegarder l’état complet d’une compétition dans output/ :
+
+- participants
+
+- matchs
+
+- résultats
+
+- statistiques
+
+- Format : JSON
 
 ## Auteurs
 
-Projet réalisé dans le cadre du cours « Projet de traitement de données »
-de l'ENSAI, encadré par Aurélien PETITFRERE.
+Projet réalisé dans le cadre du cours « Projet de traitement des données » de l’ENSAI.
+
+Encadrant : Aurélien PETITFRÈRE
 
 ## Licence
 
-Distribué sous licence MIT — voir `LICENSE` pour les détails.
+Distribué sous licence MIT 
