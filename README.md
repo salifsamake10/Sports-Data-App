@@ -1,4 +1,4 @@
-# Sport App — Gestion de résultats sportifs
+# Sport App - Gestion de résultats sportifs
 
 Projet de traitement de données — ENSAI 2025/2026
 
@@ -25,8 +25,8 @@ L'application a été testée sur **8 compétitions** issues de **4 sports** tr�
 
 ## Prérequis
 
-- **Python 3.11 ou supérieur**
-- Système : Windows / Mac / Linux
+- **Python 3.11.7** (version exacte utilisée pour le développement)
+- Système : Windows / macOS / Linux
 
 ## Installation
 
@@ -198,7 +198,7 @@ matchs, résultats et statistiques.
 ## Auteurs
 
 Projet réalisé dans le cadre du cours « Projet de traitement de données »
-de l'ENSAI, encadré par Johann Faouzi.
+de l'ENSAI, encadré par Aurélien PETITFRERE.
 
 ## Licence
 

@@ -157,13 +157,13 @@ def main(argv: list[str] | None = None) -> int:
     try:
         config = charger_config(args.config)
     except FileNotFoundError as exc:
-        print(f"❌ {exc}", file=sys.stderr)
+        print(f"{exc}", file=sys.stderr)
         return 1
 
     try:
         competition = construire_competition(config)
     except (ValidationError, KeyError, ValueError, FileNotFoundError) as exc:
-        print(f"❌ Erreur de chargement : {exc}", file=sys.stderr)
+        print(f"Erreur de chargement : {exc}", file=sys.stderr)
         return 2
 
     if args.action in ("all", "classement"):

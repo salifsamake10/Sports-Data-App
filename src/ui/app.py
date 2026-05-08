@@ -331,7 +331,7 @@ elif page == "🔍 Recherche":
             st.success(f"{len(resultats)} participant(s) trouvé(s)")
 
             for participant in resultats:
-                with st.expander(f"📌 {participant.nom}", expanded=True):
+                with st.expander(f"{participant.nom}", expanded=True):
                     matchs_p = competition.get_matchs_participant(participant)
 
                     col1, col2, col3 = st.columns(3)
