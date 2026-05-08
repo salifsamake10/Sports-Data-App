@@ -3,18 +3,23 @@ name = "sport-app"
 version = "1.0.0"
 description = "Application de gestion de résultats sportifs — Projet ENSAI 2025/2026"
 readme = "README.md"
-requires-python = ">=3.11"
-license = {file = "LICENSE"}
+requires-python = "==3.11.7"
+license = { file = "LICENSE" }
+
+# Dépendances runtime (versions exactes)
 dependencies = [
-    "pandas>=2.0",
-    "streamlit>=1.30",
+    "pandas==2.2.1",
+    "numpy==1.26.4",
+    "python-dateutil==2.9.0.post0",
+    "streamlit==1.32.0",
+    "orjson==3.10.0"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0",
-    "pytest-cov>=4.0",
-    "ruff>=0.1.0",
+    "pytest==8.1.1",
+    "pytest-cov==5.0.0",
+    "ruff==0.4.2"
 ]
 
 # ============================================================
@@ -32,20 +37,18 @@ exclude = [
 ]
 
 [tool.ruff.lint]
-# Règles activées (un sous-ensemble raisonnable)
 select = [
     "E",    # pycodestyle errors
     "W",    # pycodestyle warnings
     "F",    # pyflakes
-    "I",    # isort (tri des imports)
+    "I",    # isort
     "N",    # pep8-naming
     "UP",   # pyupgrade
     "B",    # flake8-bugbear
     "SIM",  # flake8-simplify
 ]
-# Règles désactivées (souvent trop strictes pour un projet étudiant)
 ignore = [
-    "E501",  # ligne trop longue (géré par le formatter)
+    "E501",  # lignes longues (gérées par le formatter)
     "B008",  # appels de fonctions dans valeurs par défaut
 ]
 
@@ -85,7 +88,7 @@ exclude_lines = [
     "pragma: no cover",
     "if TYPE_CHECKING:",
     "raise NotImplementedError",
-    "if __name__ == .__main__.:",
+    "if __name__ == '__main__':",
 ]
 show_missing = true
 precision = 1
