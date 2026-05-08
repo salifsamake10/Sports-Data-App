@@ -84,6 +84,7 @@ class DataValidator:
         for champ in self.schema.get("champs_obligatoires", []):
             if champ not in ligne or ligne[champ] in (None, ""):
                 erreurs.append(f"Ligne {index}: champ obligatoire '{champ}' manquant ou vide.")
+
         # Vérification des types
         for champ, type_attendu in self.schema.get("types", {}).items():
             if (
@@ -95,6 +96,10 @@ class DataValidator:
                     f"Ligne {index}: champ '{champ}' devrait être de type "
                     f"'{type_attendu}', a la valeur '{ligne[champ]}'."
                 )
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9abb11b0385648d05e17df3a9753da0ab9ec7a08
         return erreurs
 
     def _verifier_type(self, valeur, type_attendu: str) -> bool:

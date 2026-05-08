@@ -92,8 +92,8 @@ config = get_config(chemin_config)
 with st.spinner(f"Chargement de {choix_competition}..."):
     competition = charger_competition(chemin_config)
 
-st.sidebar.success(f"✓ {len(competition.matchs)} matchs chargés")
-st.sidebar.success(f"✓ {len(competition.participants)} participants")
+st.sidebar.success(f" {len(competition.matchs)} matchs chargés")
+st.sidebar.success(f" {len(competition.participants)} participants")
 
 # Choix de la page
 page = st.sidebar.radio(

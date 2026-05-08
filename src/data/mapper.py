@@ -3,7 +3,7 @@
 Le mapper est le pont entre les dicts (sortie du cleaner) et les
 classes du dossier models. Il utilise un fichier de configuration
 qui décrit la correspondance entre les colonnes du dataset et les
-attributs des objets — ce qui rend le système réutilisable pour
+attributs des objets ce qui rend le système réutilisable pour
 n'importe quel sport sans modifier le code.
 """
 
