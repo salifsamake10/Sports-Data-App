@@ -2,9 +2,9 @@
 
 Usage
 -----
-    python -m src.main --config configs/ligue1_relationnel.json
-    python -m src.main --config configs/tennis_atp.json --action classement
-    python -m src.main --config configs/basketball_nba.json --action stats
+    python -m src.main --config configs/football_ligue1.json
+    python -m src.main --config configs/tennis.json --action classement
+    python -m src.main --config configs/basketball.json --action stats
     python -m src.main --config configs/chess.json --action sauvegarder
 """
 
@@ -27,7 +27,6 @@ from src.data import (
 from src.models import Competition
 from src.services import (
     ClassementService,
-    # RechercheService,
     StatistiquesService,
 )
 

@@ -1,18 +1,24 @@
 """Module définissant la classe Match."""
 
+from __future__ import annotations
+
 from datetime import date as date_type
+from typing import TYPE_CHECKING
 
 from .enums import MatchStatus
-from .participant import Participant
-from .resultat import Resultat
+
+if TYPE_CHECKING:
+    from .participant import Participant
+    from .resultat import Resultat
 
 
 class Match:
-    """Représente un match (rencontre entre participants).
+    """Représente un match (affrontement entre participants).
 
-    Un match oppose 2 participants ou plus) et produit des résultats.
+    Un match oppose 2 participants ou plus, suit un cycle de vie
+    (planifié → en cours → terminé) et produit des résultats.
 
-    Attributs
+    Attributes
     ----------
     id : int
         Identifiant unique.
@@ -24,8 +30,8 @@ class Match:
         Participants opposés.
     resultats : list[Resultat]
         Résultats du match.
-    lieu : optional
-        Lieu du match (optionnel).
+    lieu : str, optional
+        Lieu du match (nom du stade ou de la salle, optionnel).
     phase : str
         Phase de la compétition ("Poule A", "Demi-finale", "Journée 12"...).
     type_fin : str
@@ -54,8 +60,8 @@ class Match:
             Liste de 2 participants minimum.
         statut : MatchStatus, optional
             Statut initial (par défaut PLANIFIE).
-        lieu : Lieu, optional
-            Lieu du match.
+        lieu : str, optional
+            Nom du lieu du match (stade, salle, etc.).
         phase : str, optional
             Phase / journée de la compétition.
         type_fin : str, optional
