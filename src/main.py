@@ -78,7 +78,7 @@ def construire_competition(config: dict) -> Competition:
     if schema:
         validator = DataValidator(schema)
         if not validator.valider(donnees_propres):
-            print("  ⚠ Avertissements de validation :")
+            print("Avertissements de validation :")
             for err in validator.erreurs[:5]:
                 print(f"    - {err}")
         else:
@@ -101,13 +101,19 @@ def afficher_classement(competition: Competition, config: dict) -> None:
     type_resultat = config.get("type_resultat", "buts")
 
     if type_classement == "points_3_1_0":
-        classement = ClassementService.classement_par_points_3_1_0(competition, type_resultat)
+        classement = ClassementService.classement_par_points_3_1_0(
+            competition, type_resultat
+        )
     elif type_classement == "victoires":
         classement = ClassementService.classement_par_victoires(competition)
     elif type_classement == "score_total":
-        classement = ClassementService.classement_par_score_total(competition, type_resultat)
+        classement = ClassementService.classement_par_score_total(
+            competition, type_resultat
+        )
     else:
-        classement = ClassementService.classement_par_score_total(competition, type_resultat)
+        classement = ClassementService.classement_par_score_total(
+            competition, type_resultat
+        )
 
     print(ClassementService.afficher_classement(classement, limite=20))
 
@@ -122,7 +128,9 @@ def afficher_statistiques(competition: Competition, config: dict) -> None:
         print(f"  {cle:<25} : {valeur}")
 
     print("\n--- Top 5 ---")
-    top = StatistiquesService.top_n_buteurs(competition, n=5, type_resultat=type_resultat)
+    top = StatistiquesService.top_n_buteurs(
+        competition, n=5, type_resultat=type_resultat
+    )
     for i, (p, v) in enumerate(top, 1):
         print(f"  {i}. {p.nom:<25} {v:.0f} {type_resultat}")
 
