@@ -317,7 +317,7 @@ elif page == "Statistiques avancées":
 # Page : Recherche
 # ============================================================
 
-elif page == "🔍 Recherche":
+elif page == "Recherche":
     st.subheader("Recherche d'un participant")
 
     nom_recherche = st.text_input("Nom (ou partie du nom) :", placeholder="Ex : PSG, Sinner...")
