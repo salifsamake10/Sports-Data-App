@@ -128,8 +128,8 @@ st.markdown("---")
 # ============================================================
 
 if page == "Vue d'ensemble":
-    rapport = StatistiquesService.rapport_global(competition)
-
+    type_resultat = config.get("type_resultat", "buts")
+    rapport = StatistiquesService.rapport_global(competition, type_resultat)
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("Matchs joués", rapport["nb_matchs_termines"])
     col2.metric("Participants", rapport["nb_participants"])
@@ -145,7 +145,7 @@ if page == "Vue d'ensemble":
     col_g, col_d = st.columns(2)
 
     with col_g:
-        st.subheader("Meilleure attaque")
+        st.subheader("Meilleure performance offensive")
         type_resultat = config.get("type_resultat", "points")
         meilleur = StatistiquesService.meilleur_attaque(competition, type_resultat)
         if meilleur:
@@ -154,12 +154,13 @@ if page == "Vue d'ensemble":
             st.success(f"**{meilleur.nom}** — {valeur:.0f} {type_resultat}")
 
     with col_d:
-        st.subheader("Meilleure défense")
+        st.subheader(" Meilleure performance defensive")
         meilleure_def = StatistiquesService.meilleure_defense(
-            competition, config.get("type_resultat", "points")
-        )
+            competition, type_resultat)
         if meilleure_def:
-            st.info(f"**{meilleure_def.nom}**")
+            stat = meilleure_def.get_stat(type_resultat)
+            valeur = stat.valeur if stat else 0
+            st.info(f"**{meilleure_def.nom}** — {valeur:.0f} {type_resultat}")
 
     st.markdown("---")
 
@@ -271,7 +272,7 @@ elif page == "Statistiques avancées":
         seuil = st.slider(
             f"Matchs avec plus de X {type_resultat} au total",
             min_value=1,
-            max_value=20,
+            max_value=300,
             value=5,
         )
         matchs_spec = StatistiquesService.matchs_avec_plus_de(
@@ -307,10 +308,10 @@ elif page == "Statistiques avancées":
     st.markdown("---")
 
     # Statistiques globales
-    st.subheader("Récapitulatif")
-    rapport = StatistiquesService.rapport_global(competition)
-    df_rapport = pd.DataFrame([{"Indicateur": k, "Valeur": v} for k, v in rapport.items()])
-    st.table(df_rapport)
+    #st.subheader("Récapitulatif")
+    #rapport = StatistiquesService.rapport_global(competition)
+    #df_rapport = pd.DataFrame([{"Indicateur": k, "Valeur": v} for k, v in rapport.items()])
+    #st.table(df_rapport)
 
 
 # ============================================================

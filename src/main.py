@@ -41,7 +41,7 @@ def charger_config(path: str | Path) -> dict:
 
 
 def construire_competition(config: dict) -> Competition:
-    """Pipeline complet : load → clean → validate → map → competition.
+    """Pipeline complet : load ,clean,validate,map et cree competition.
 
     Branche entre RelationalMapper (multi-fichiers) et DataMapper simple
     selon la valeur de "type_mapper" dans la config.
@@ -68,11 +68,11 @@ def construire_competition(config: dict) -> Competition:
     # Mapper simple (un seul fichier CSV)
     loader = get_loader(config["format_fichier"])
     donnees_brutes = loader.load(config["fichier_donnees"])
-    print(f"  ✓ {len(donnees_brutes)} lignes brutes chargées")
+    print(f"   {len(donnees_brutes)} lignes brutes chargées")
 
     cleaner = DataCleaner()
     donnees_propres = cleaner.nettoyer(donnees_brutes)
-    print(f"  ✓ {len(donnees_propres)} lignes après nettoyage")
+    print(f"  {len(donnees_propres)} lignes après nettoyage")
 
     schema = config.get("schema_validation")
     if schema:
@@ -82,12 +82,12 @@ def construire_competition(config: dict) -> Competition:
             for err in validator.erreurs[:5]:
                 print(f"    - {err}")
         else:
-            print("  ✓ Validation OK")
+            print("   Validation OK")
 
     mapper = DataMapper(config)
     competition = mapper.construire_competition(donnees_propres)
     print(
-        f"  ✓ Competition construite : "
+        f"   Competition construite : "
         f"{len(competition.matchs)} matchs, "
         f"{len(competition.participants)} participants"
     )
@@ -141,7 +141,7 @@ def sauvegarder(competition: Competition, config: dict) -> None:
     chemin = Path("output") / f"{nom_fichier}.json"
     saver = DataSaver()
     saver.sauvegarder_competition(competition, chemin)
-    print(f"\n✓ Compétition sauvegardée : {chemin}")
+    print(f"\n Compétition sauvegardée : {chemin}")
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:

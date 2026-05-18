@@ -16,7 +16,7 @@ class Match:
     """Représente un match (affrontement entre participants).
 
     Un match oppose 2 participants ou plus, suit un cycle de vie
-    (planifié → en cours → terminé) et produit des résultats.
+    (planifié,en cours, terminé) et produit des résultats.
 
     Attributes
     ----------

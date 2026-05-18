@@ -26,7 +26,7 @@ class TestStatistiquesService:
         assert meilleur == equipe_psg
 
     def test_meilleure_defense(self, competition_complete, equipe_psg):
-        # PSG a encaissé 1, OM a encaissé 4 → PSG meilleure défense
+        # PSG a encaissé 1, OM a encaissé 4  PSG meilleure défense
         meilleure = StatistiquesService.meilleure_defense(competition_complete)
         assert meilleure == equipe_psg
 
@@ -46,7 +46,7 @@ class TestStatistiquesService:
         assert top[1][0] == equipe_om
 
     def test_matchs_avec_plus_de(self, competition_complete):
-        # Le match a 5 buts au total → > 4
+        # Le match a 5 buts au total  > 4
         matchs = StatistiquesService.matchs_avec_plus_de(competition_complete, seuil=4)
         assert len(matchs) == 1
 

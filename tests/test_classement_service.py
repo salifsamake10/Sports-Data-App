@@ -56,7 +56,7 @@ class TestClassement310:
     def test_difference_de_buts(self, competition_avec_matchs, equipe_psg):
         classement = ClassementService.classement_par_points_3_1_0(competition_avec_matchs)
         psg_ligne = next(li for li in classement if li["participant"] == equipe_psg)
-        # PSG : marqués 3+2=5, encaissés 1+2=3 → diff +2
+        # PSG : marqués 3+2=5, encaissés 1+2=3  diff +2
         assert psg_ligne["marques"] == 5
         assert psg_ligne["encaisses"] == 3
         assert psg_ligne["difference"] == 2

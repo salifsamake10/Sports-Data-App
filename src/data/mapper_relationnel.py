@@ -75,7 +75,7 @@ class RelationalMapper:
         df_matchs = self._charger_csv(f"{dossier}/{self.config['fichier_matchs']}")
         nb_brut = len(df_matchs)
         df_matchs = self._appliquer_filtres(df_matchs)
-        print(f"  → {nb_brut} matchs bruts, {len(df_matchs)} après filtrage")
+        print(f"  {nb_brut} matchs bruts, {len(df_matchs)} après filtrage")
 
         # 4. Construire chaque match
         nb_ajoutes = 0
@@ -85,8 +85,8 @@ class RelationalMapper:
                 competition.ajouter_match(match)
                 nb_ajoutes += 1
 
-        print(f"  → {nb_ajoutes} matchs valides ajoutés")
-        print(f"  → {len(competition.participants)} participants")
+        print(f"  {nb_ajoutes} matchs valides ajoutés")
+        print(f"  {len(competition.participants)} participants")
 
         competition.mettre_a_jour_classement()
         return competition
@@ -110,7 +110,7 @@ class RelationalMapper:
         if not chemin_path.exists():
             raise FileNotFoundError(f"Fichier introuvable : {chemin_path}")
 
-        # Lecture avec pandas + traitement des valeurs manquantes
+        # Lecture avec pandas  traitement des valeurs manquantes
         df = pd.read_csv(chemin_path, na_values=self.VALEURS_MANQUANTES)
 
         # Nettoyage : strip sur les colonnes texte
@@ -135,15 +135,15 @@ class RelationalMapper:
         if not col_id or not col_nom:
             return
 
-        # Itération sur le DataFrame (style itertuples du prof)
+        # Itération sur le DataFrame (style itertuples)
         for r in df.itertuples(index=False):
             cle = str(getattr(r, col_id, "")).strip()
             nom = str(getattr(r, col_nom, "")).strip()
-            if cle and cle != "nan" and nom and nom != "nan":
+            if cle and cle != "nan" and nom != "nan":
                 self._participants_par_cle[cle] = self._creer_participant(nom)
 
         print(
-            f"  → {len(self._participants_par_cle)} participants chargés "
+            f"  {len(self._participants_par_cle)} participants chargés "
             f"depuis {self.config['fichier_participants']}"
         )
 
