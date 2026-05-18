@@ -3,7 +3,7 @@
 Effectue un pré-traitement avant la transformation en objets :
 - suppression des doublons
 - gestion des valeurs manquantes
-- normalisation des types (str → int, str → date…)
+- normalisation des types (str  int, str  date…)
 """
 
 from __future__ import annotations

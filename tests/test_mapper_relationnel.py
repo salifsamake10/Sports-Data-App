@@ -64,7 +64,7 @@ class TestRelationalMapperFootball:
         """Le filtre doit garder seulement les matchs de la Ligue 1."""
         mapper = RelationalMapper(config_foot)
         competition = mapper.construire_competition()
-        # 3 matchs Ligue 1 + 1 match Premier League → 3 retenus
+        # 3 matchs Ligue 1 + 1 match Premier League  3 retenus
         assert len(competition.matchs) == 3
 
     def test_participants_charges_depuis_fichier(self, config_foot):
@@ -177,7 +177,7 @@ class TestRelationalMapperEcheances:
 
 class TestNettoyagePandas:
     def test_supprime_doublons(self, dossier_foot_factice, config_foot):
-        """Doublons exacts dans le CSV → 1 seul match."""
+        """Doublons exacts dans le CSV  1 seul match."""
         # Ajout d'un doublon
         chemin = dossier_foot_factice / "match.csv"
         contenu = chemin.read_text() + "4769,2015/2016,2015-08-08,100,101,3,1,1\n"
