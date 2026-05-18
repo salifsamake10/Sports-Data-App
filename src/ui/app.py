@@ -134,7 +134,7 @@ if page == "Vue d'ensemble":
     col1.metric("Matchs joués", rapport["nb_matchs_termines"])
     col2.metric("Participants", rapport["nb_participants"])
     col3.metric(
-        "Moyenne par match",
+        "Moyenne de buts par match",
         f"{rapport['moyenne_buts_par_match']:.2f}",
         help=f"Moyenne de {config.get('type_resultat', 'points')} par match",
     )
