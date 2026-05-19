@@ -155,8 +155,7 @@ if page == "Vue d'ensemble":
 
     with col_d:
         st.subheader(" Meilleure performance defensive")
-        meilleure_def = StatistiquesService.meilleure_defense(
-            competition, type_resultat)
+        meilleure_def = StatistiquesService.meilleure_defense(competition, type_resultat)
         if meilleure_def:
             stat = meilleure_def.get_stat(type_resultat)
             valeur = stat.valeur if stat else 0
@@ -308,10 +307,10 @@ elif page == "Statistiques avancées":
     st.markdown("---")
 
     # Statistiques globales
-    #st.subheader("Récapitulatif")
-    #rapport = StatistiquesService.rapport_global(competition)
-    #df_rapport = pd.DataFrame([{"Indicateur": k, "Valeur": v} for k, v in rapport.items()])
-    #st.table(df_rapport)
+    # st.subheader("Récapitulatif")
+    # rapport = StatistiquesService.rapport_global(competition)
+    # df_rapport = pd.DataFrame([{"Indicateur": k, "Valeur": v} for k, v in rapport.items()])
+    # st.table(df_rapport)
 
 
 # ============================================================

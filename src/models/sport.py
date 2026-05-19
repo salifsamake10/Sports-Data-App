@@ -1,4 +1,5 @@
 """Module définissant la classe Sport."""
+
 from __future__ import annotations
 
 

@@ -202,7 +202,8 @@ class StatistiquesService:
             "nb_matchs_termines": sum(
                 1 for m in competition.matchs if m.statut == MatchStatus.TERMINE
             ),
-            "moyenne_buts_par_match": round(StatistiquesService.moyenne_par_match(
-                                                                    competition, type_resultat), 2),
-            "taux_match_nul": round(StatistiquesService.taux_match_nul(competition) * 100, 1)
+            "moyenne_buts_par_match": round(
+                StatistiquesService.moyenne_par_match(competition, type_resultat), 2
+            ),
+            "taux_match_nul": round(StatistiquesService.taux_match_nul(competition) * 100, 1),
         }

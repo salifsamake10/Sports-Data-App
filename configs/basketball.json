@@ -5,7 +5,7 @@
   "categorie": "Senior",
   "genre": "MASCULIN",
   "type_participant": "equipe",
-  "type_resultat": "points",
+  "type_resultat": "buts",
   "type_classement": "points_3_1_0",
   "saison": {"debut": 2022, "fin": 2023, "nom": "2022-2023"},
   "pays_defaut": {"nom": "USA", "code": "USA"},
