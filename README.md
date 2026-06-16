@@ -1,73 +1,73 @@
-# Sport App — Gestion et analyse de résultats sportifs
+# 🏆 Sport App - Gestion et analyse de résultats sportifs
 
-Projet de traitement de données — ENSAI 2025/2026
+Projet de traitement de données - ENSAI 2025/2026  
+Projet réalisé en **groupe** dans le cadre du cours *Projet de traitement des données* (1A ENSAI).  
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Tests](https://img.shields.io/badge/tests-141-success)
 ![Coverage](https://img.shields.io/badge/coverage-74.5%25-green)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 
-Application Python permettant de charger, structurer, analyser et visualiser des résultats de compétitions sportives à partir de jeux de données variés.
-
-L’application a été conçue pour être **générique et extensible** : elle peut être adaptée à différents sports (football, tennis, basket-ball, échecs, etc.) sans modification du code métier, uniquement via des fichiers de configuration JSON.
-
----
-
-# Fonctionnalités principales
-
-- Chargement automatique de datasets sportifs hétérogènes
-- Nettoyage et validation des données
-- Structuration relationnelle des données sportives
-- Calcul de classements selon plusieurs stratégies
-- Génération de statistiques sportives
-- Recherche et comparaison de participants
-- Interface web interactive avec Streamlit
-- Sauvegarde des compétitions au format JSON
-- Configuration générique par fichiers JSON
+Application Python permettant de charger, structurer, analyser et visualiser des résultats de compétitions sportives à partir de jeux de données variés.  
+L’application est **générique et extensible** : elle peut être adaptée à différents sports (football, tennis, basket-ball, échecs, etc.) sans modification du code métier, uniquement via des fichiers de configuration JSON.
 
 ---
 
-# Chiffres clés
-
-- **30 000+ matchs analysés**
-- **8 compétitions prises en charge**
-- **4 sports différents**
-- **141 tests unitaires**
-- **74.5 % de couverture de code**
-- Traitement de datasets relationnels multi-fichiers
-
----
-
-# Sports et compétitions supportés
-
-L’application a été testée sur **8 compétitions** issues de **4 sports** différents.
-
-| Sport | Compétition | Type | Participants |
-|---|---|---|---|
-| Football | France Ligue 1 2015/2016 | Collectif | 20 équipes |
-| Football | England Premier League | Collectif | 20 équipes |
-| Football | Germany Bundesliga | Collectif | 18 équipes |
-| Football | Spain La Liga | Collectif | 20 équipes |
-| Football | Italy Serie A | Collectif | 20 équipes |
-| Tennis | ATP Tour 2024 | Individuel | 443 joueurs |
-| Basket-ball | NBA Regular Season 2022–2023 | Collectif | 30 équipes |
-| Échecs | Tournoi 2024 | Individuel | 203 joueurs |
+## Fonctionnalités principales
+- Chargement automatique de datasets sportifs hétérogènes  
+- Nettoyage et validation des données  
+- Structuration relationnelle des données sportives  
+- Calcul de classements selon plusieurs stratégies  
+- Génération de statistiques sportives  
+- Recherche et comparaison de participants  
+- Interface web interactive avec Streamlit  
+- Sauvegarde des compétitions au format JSON  
+- Configuration générique par fichiers JSON  
 
 ---
 
-# Aperçu de l’interface
+## Chiffres clés
+- **30 000+ matchs analysés**  
+- **8 compétitions prises en charge**  
+- **4 sports différents**  
+- **141 tests unitaires**  
+- **74.5 % de couverture de code**  
+- Traitement de datasets relationnels multi-fichiers  
 
-## Vue d’ensemble
+---
 
+## Sports et compétitions supportés
+| Sport       | Compétition                  | Type       | Participants |
+|-------------|------------------------------|------------|--------------|
+| Football    | France Ligue 1 2015/2016     | Collectif  | 20 équipes   |
+| Football    | England Premier League       | Collectif  | 20 équipes   |
+| Football    | Germany Bundesliga           | Collectif  | 18 équipes   |
+| Football    | Spain La Liga                | Collectif  | 20 équipes   |
+| Football    | Italy Serie A                | Collectif  | 20 équipes   |
+| Tennis      | ATP Tour 2024                | Individuel | 443 joueurs  |
+| Basket-ball | NBA Regular Season 2022–2023 | Collectif  | 30 équipes   |
+| Échecs      | Tournoi 2024                 | Individuel | 203 joueurs  |
+
+---
+
+## Aperçu de l’interface
+### Vue d’ensemble
 ![Vue générale](image/vue_ensemble.png)
 
-## Classement
-
+### Classement
 ![Classement](image/interface_classement.png)
 
-## Statistiques avancées
-
+### Statistiques avancées
 ![Statistiques](image/stat_avance.png)
+
+---
+
+## Prérequis
+- **Python 3.11.7**  
+- Windows / macOS / Linux  
+
+
+
 
 ---
 
@@ -168,7 +168,6 @@ Projet_Info/
 ├── tests/               # Tests unitaires pytest
 ├── output/              # Sauvegardes JSON (créé automatiquement)
 ├── requirements.txt
-├── pyproject.toml
 ├── LICENSE
 └── README.md
 ```
