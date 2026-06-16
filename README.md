@@ -1,4 +1,4 @@
-# 🏆 Sport App - Gestion et analyse de résultats sportifs
+# Sport App - Gestion et analyse de résultats sportifs
 
 Projet de traitement de données - ENSAI 2025/2026  
 Projet réalisé en **groupe** dans le cadre du cours *Projet de traitement des données* (1A ENSAI).  
